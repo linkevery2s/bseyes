@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>防災 on 防災EYE&#39;S</title>
+    <link>https://linkevery2s.github.io/bseyes/categories/%E9%98%B2%E7%81%BD/index.xml</link>
+    <description>Recent content in 防災 on 防災EYE&#39;S</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <atom:link href="https://linkevery2s.github.io/bseyes/categories/%E9%98%B2%E7%81%BD/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>南海トラフの巨大地震モデル</title>
+      <link>https://linkevery2s.github.io/bseyes/blog/article20180128/</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://linkevery2s.github.io/bseyes/blog/article20180128/</guid>
+      <description>&lt;p&gt;内閣府の「南海トラフの巨大地震モデル検討会」にて、議論されたマップデータです。&lt;/p&gt;
+
+&lt;p&gt;近い将来、東海・東南海地震が起きることが予測されています。&lt;/p&gt;
+
+&lt;p&gt;自分達が住んでいる地域では、どの規模の揺れになるのか等、予め心構えしておくことも大切です。&lt;/p&gt;
+
+&lt;p&gt;ぜひ、確認してみてください。&lt;/p&gt;
+
+&lt;iframe src=&#34;https://linkevery2s.github.io/openjapan/data/tokaie.html&#34; width=&#34;100%&#34; height=&#34;500px&#34; frameborder=&#34;yes&#34; scrolling=&#34;yes&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;（出典「内閣府 南海トラフの巨大地震モデル検討会」）&lt;/p&gt;
+
+&lt;p&gt;☆使用したオープンデータ&lt;/p&gt;
+
+&lt;p&gt;以下の資料をもとに仁志が加工・編集して作成しました。&lt;/p&gt;
+
+&lt;p&gt;・G空間情報センター、強震断層モデル(1)データセットA&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
