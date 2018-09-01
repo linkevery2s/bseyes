@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>気象情報</title>
- <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
@@ -35,12 +35,44 @@
     License: https://templatemag.com/license/
   ======================================================= -->
 
+	<script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPXA5aTVaV1hEb3Q1eSZzPWNvbnN1bWVyc2VjcmV0Jng9N2Y-"></script>
 
+	<script type="text/javascript">
+		var ymap;
 
+    		function yyy() {
+
+    			ymap = new Y.Map("map", {
+    			configure : {
+        			doubleClickZoom : true,
+        			scrollWheelZoom : true,
+        			weatherOverlay: true
+    			}
+			});
+	
+    			//天気レイヤ作成
+    			var weather = new Y.WeatherMapLayer({
+       				 "opacity": 0.6,
+   				 });
+    
+    			//天気レイヤを重ねる地図レイヤを作成
+    			var maplayer = new Y.NormalLayer();
+    			//地図 + 天気レイヤを追加
+    			ymap.addLayerSet("weather", new Y.LayerSet("地図+天気", [maplayer, weather]));
+
+    			ymap.addControl(new Y.SliderZoomControlVertical());
+    			//地図を描画
+    			ymap.drawMap(new Y.LatLng(35.6,139.7), 6, "weather");
+    			//天気データを更新
+    			weather.UpdateWeather();
+
+			}
+
+	</script>
 
 </head>
 
-<body>
+<body onload="yyy()">
 
   <!-- Custom navbar -->
   <div class="custom-navbar"><a class="fm-button" href="#">Menu</a></div>
@@ -117,25 +149,43 @@
 
 
   <div class="container">
-
-<div class="row mt3 presentation">
+    <div class="row mt3 presentation">
       <div class="centered">
         <i class="icon ion-ios7-folder-outline large-icon"></i>
-        <h1>避難場所</h1>
+        <h1>気象情報</h1>
         <hr>
       </div></div>
-
+      
+    <div class="row mt presentation">
       <div class="col-lg-4 col-md-4">
-        <h3>About This Service</h3>
+        <h3>雨雲レーダー</h3>
       </div>
-
       <div class="col-lg-4 col-md-4">
-        <p>地震、津波、台風、大雪、落雷、豪雨…この日本には様々な災害があります。</p>
-      </div>
+        <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since, when an unknown ristique senectus et netus.</p>
 
-      <div class="col-lg-4 col-md-4">
-        <p>災害の多い日本において、オープンデータを用いて統計的に防災をみてみようというサービスです。</p>
       </div>
+      <div class="col-lg-4 col-md-4">
+        <p><b>Date:</b> June 2014</p>
+        <p>
+          <b>Category:</b>
+          <pl>Print, Design</pl><br/>
+          <b>Client:</b>
+          <pl>Offscreen Magazine</pl>
+        </p>
+
+      </div>
+    </div>
+    <!-- /row -->
+
+				<div id ="map" style="width:100%; height: 500px;"></div>
+
+					<!-- Begin Yahoo! JAPAN Web Services Attribution Snippet -->
+					<a href="https://developer.yahoo.co.jp/about">
+					<img src="https://s.yimg.jp/images/yjdn/yjdn_attbtn2_105_17.gif" width="105" height="17" title="Webサービス by Yahoo! JAPAN" alt="Webサービス by Yahoo! JAPAN" border="0" style="margin:15px 15px 0px 15px" class="ya_im"></a>
+					<!-- End Yahoo! JAPAN Web Services Attribution Snippet -->
+
+    </div>
+    <!-- /row -->
 
     <div class="row mt2">
       <div class="col-md-12 centered">
@@ -171,7 +221,6 @@
         </div>
       </div>
     </div>
-
 
   </div>
 
