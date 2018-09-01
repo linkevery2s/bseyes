@@ -49,7 +49,12 @@ div.body {
 }
 img {
 	height: auto;
-	max-width: 100%;
+	width: 100%;/* 2018.09.01変更*/
+}
+
+img.ya_im{
+	max-width: 105px !important;
+	align: left;
 }
 .hidden { display: none; }
 .alignleft { float: left; }
