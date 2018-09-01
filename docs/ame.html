@@ -26,7 +26,7 @@
   <link href="lib/superslides/superslides.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 
   <!-- =======================================================
     Template Name: Polaroyd
@@ -37,38 +37,6 @@
 
 
 
-	<script type="text/javascript">
-		var ymap;
-
-    		function yyy() {
-
-    			ymap = new Y.Map("map", {
-    			configure : {
-        			doubleClickZoom : true,
-        			scrollWheelZoom : true,
-        			weatherOverlay: true
-    			}
-			});
-	
-    			//天気レイヤ作成
-    			var weather = new Y.WeatherMapLayer({
-       				 "opacity": 0.6,
-   				 });
-    
-    			//天気レイヤを重ねる地図レイヤを作成
-    			var maplayer = new Y.NormalLayer();
-    			//地図 + 天気レイヤを追加
-    			ymap.addLayerSet("weather", new Y.LayerSet("地図+天気", [maplayer, weather]));
-
-    			ymap.addControl(new Y.SliderZoomControlVertical());
-    			//地図を描画
-    			ymap.drawMap(new Y.LatLng(35.6,139.7), 6, "weather");
-    			//天気データを更新
-    			weather.UpdateWeather();
-
-			}
-
-	</script>
 
 </head>
 
