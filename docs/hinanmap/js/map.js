@@ -7,7 +7,7 @@ var todou22 ;var ido; var keido;
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-		map.setView([35.619, 138.466], 5);
+		map.setView([35.619, 138.466], 8);
 
 			gps_button = L.easyButton('fa-location-arrow', function(){
     			GPS();
