@@ -433,7 +433,7 @@ body .custom-navbar {
   box-sizing: border-box;
   text-transform: uppercase;
   letter-spacing: 1px;
-  z-index: 1000;
+  z-index: 10000;
   border-bottom: 1px solid #f1f1f2;
   overflow: hidden;
 }
@@ -501,7 +501,7 @@ body .ai-eye {
   box-sizing: border-box;
   text-transform: uppercase;
   letter-spacing: 1px;
-  z-index: 101;
+  z-index: 10000;
   border-bottom: 1px solid #f1f1f2;
   overflow: hidden;
 }
