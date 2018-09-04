@@ -1,4 +1,4 @@
-var map; var hash; var gps_button; var marker1;
+var map; var hash; var gps_button; var marker1;var mas_button ; 
 
     function map_ini() {
 		map = L.map('map_canvas');
@@ -11,6 +11,10 @@ var map; var hash; var gps_button; var marker1;
 		
 		gps_button = L.easyButton('fa-location-arrow', function(){
     		GPS();
+		}).addTo( map );
+
+mas_button = L.easyButton('fa-location-arrow', function(){
+    		maset();
 		}).addTo( map );
 
 	}
@@ -29,8 +33,19 @@ var map; var hash; var gps_button; var marker1;
     	map.setView([ido, keido], 17);
     	marker1 = L.marker([ido, keido], {draggable:true} ).addTo(map);
 		gps_button.disable();
+mas_button.disable();
 	}
 
 	function gps_error(error) {
        alert("エラーが発生したので、現在地を取得できませんでした。");
 	}
+
+function maset() {
+
+    var para = location.hash;
+	var par = para.split("/");
+
+marker1 = L.marker([par[1], par[2]], {draggable:true} ).addTo(map);
+mas_button.disable();
+
+}
