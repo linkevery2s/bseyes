@@ -13,7 +13,7 @@ var map; var hash; var gps_button; var marker1;var mas_button ;
     		GPS();
 		}).addTo( map );
 
-mas_button = L.easyButton('fa-location-arrow', function(){
+mas_button = L.easyButton('fa-map-pin', function(){
     		maset();
 		}).addTo( map );
 
