@@ -1,4 +1,4 @@
-var map; var hash; var gps_button; var marker1;var mas_button ; 
+var map; var hash; var gps_button; var marker1;var mas_button ; var marker2;
 
     function map_ini() {
 		map = L.map('map_canvas');
@@ -28,12 +28,15 @@ mas_button = L.easyButton('fa-map-pin', function(){
 	}
 
 	function gps_get(position) {
+
+
     	ido = position.coords.latitude;
     	keido = position.coords.longitude;
     	map.setView([ido, keido], 17);
     	marker1 = L.marker([ido, keido], {draggable:true} ).addTo(map);
 		gps_button.disable();
-mas_button.disable();
+        mas_button.disable();
+marker2.onRemove(map);
 	}
 
 	function gps_error(error) {
@@ -45,7 +48,7 @@ function maset() {
     var para = location.hash;
 	var par = para.split("/");
 
-marker1 = L.marker([par[1], par[2]], {draggable:true} ).addTo(map);
+marker2 = L.marker([par[1], par[2]], {draggable:true} ).addTo(map);
 mas_button.disable();
 
 }
