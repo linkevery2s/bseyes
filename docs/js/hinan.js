@@ -79,23 +79,23 @@ function ng(){
 }
 
 function gif(){
-	document.getElementById("hazard_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1xQhfMYkTbTGnvGGfQqCxgaGevZyg_RFmiG9cv59R&amp;viz=MAP&amp;h=false&amp;lat=35.836864380873564&amp;lng=137.0282660605469&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=GEOCODABLE"></iframe>';
+	document.getElementById("hinan_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="hinanmap/gifu.html"></iframe>';
 }
 
 function sz(){
-	document.getElementById("hazard_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1sQeLgaapD2aMVqrM7vwUrlFiPRMvaTVdhyF9-YzL&amp;viz=MAP&amp;h=false&amp;lat=34.91637716740335&amp;lng=138.3616609091796&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
+	document.getElementById("hinan_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="hinanmap/shizuoka.html"></iframe>';
 }
 
 function aic(){
-	document.getElementById("hazard_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1Y3HXsWRoCePcpSZdBrxZJcWoOwIT9DcfjpuhOrO3&amp;viz=MAP&amp;h=false&amp;lat=35.07673924682973&amp;lng=137.11868374410926&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
+	document.getElementById("hinan_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="hinanmap/aichi.html"></iframe>';
 }
 
 function mie(){
-	document.getElementById("hazard_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1qZvsbXY-C4Q8zloD9Un9lCaQPmKkInGjKH8H5Vxx&amp;viz=MAP&amp;h=false&amp;lat=34.47270770693132&amp;lng=136.44911172753905&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
+	document.getElementById("hinan_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="hinanmap/mie.html"></iframe>';
 }
 
 function siga(){
-	document.getElementById("hazard_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1bvisDoOsuwSMkxZhOPcA9-0GPHb4e6Itk2Uuivag&amp;viz=MAP&amp;h=false&amp;lat=35.32568250464107&amp;lng=136.10628358398435&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=GEOCODABLE"></iframe>';
+	document.getElementById("hinan_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="hinanmap/shiga.html"></iframe>';
 }
 
 function kyot(){
