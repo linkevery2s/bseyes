@@ -548,6 +548,20 @@ var todou ;var ido; var keido;
 
 	}
 
+function oita_ini() {
+		map = L.map('map');
+		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+  		}).addTo(map);
+		map.setView([33.128, 131.083], 8);
+
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(oita, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+
     function nagasaki_ini() {
 		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
