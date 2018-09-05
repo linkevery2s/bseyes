@@ -116,6 +116,7 @@ a img {
 .sidemenu {
   visibility: hidden;
   height: 0;
+z-index: 10000;
 }
 /*	################################################################
 	2. HELPERS & SECTIONS
