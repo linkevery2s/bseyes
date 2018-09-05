@@ -511,7 +511,7 @@ body .top_back {
   position: fixed;
   bottom: 0;
   right: 0;
-  background: white;
+  background: #ff9900;
   padding: 20px 15px 20px 15px;
   text-align: center;
   box-sizing: border-box;
