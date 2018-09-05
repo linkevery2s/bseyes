@@ -1,5 +1,5 @@
 function hok(){
-	document.getElementById("hazard_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1ohzODgvq9y2Fgts1sFcXJSZdREKIItAXXmC4YYyF&amp;viz=MAP&amp;h=false&amp;lat=43.908696932550974&amp;lng=142.71804701257292&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
+	document.getElementById("hinan_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1ohzODgvq9y2Fgts1sFcXJSZdREKIItAXXmC4YYyF&amp;viz=MAP&amp;h=false&amp;lat=43.908696932550974&amp;lng=142.71804701257292&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function ao(){
