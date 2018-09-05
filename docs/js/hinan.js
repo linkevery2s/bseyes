@@ -3,7 +3,7 @@ function hok(){
 }
 
 function ao(){
-	document.getElementById("hazard_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="hinanmap/aomori.html"></iframe>';
+	document.getElementById("hinan_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="hinanmap/aomori.html"></iframe>';
 }
 
 function ak(){
