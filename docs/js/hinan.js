@@ -59,23 +59,23 @@ function ni(){
 }
 
 function toyama(){
-	document.getElementById("hazard_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1hFvdcBW2P6Ib9kXlhnxMT2oNXklUQpMSlfR3EBh1&amp;viz=MAP&amp;h=false&amp;lat=36.74372269068957&amp;lng=137.17827135156256&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
+	document.getElementById("hinan_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="hinanmap/toyama.html"></iframe>';
 }
 
 function is(){
-	document.getElementById("hazard_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1aIrQdiPHuDSMIJc10SmUp_vX7WeN-LkolcpB12lh&amp;viz=MAP&amp;h=false&amp;lat=36.92735458091522&amp;lng=136.8395982558594&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
+	document.getElementById("hinan_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="hinanmap/ishikawa.html"></iframe>';
 }
 
 function fukui(){
-	document.getElementById("hazard_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+15p4rntyiBpYhY0NfSKaZrGWog73Bplu4BlZ6quS4&amp;viz=MAP&amp;h=false&amp;lat=35.94061825297962&amp;lng=136.20474821923835&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
+	document.getElementById("hinan_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="hinanmap/fukui.html"></iframe>';
 }
 
 function yam(){
-	document.getElementById("hazard_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1MjmHv7UB7H_BovaIWTT_FbavcuSv394Y3C5AcdLx&amp;viz=MAP&amp;h=false&amp;lat=35.615380855285075&amp;lng=138.5547433602295&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
+	document.getElementById("hinan_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="hinanmap/yamanashi.html"></iframe>';
 }
 
 function ng(){
-	document.getElementById("hazard_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1TQZNsHcXMFcdsxjGMavqnuTt2c5Ut1rT-nDG7sZm&amp;viz=MAP&amp;h=false&amp;lat=36.418977649385326&amp;lng=138.24429300122074&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=GEOCODABLE"></iframe>';
+	document.getElementById("hinan_map").innerHTML = '<iframe width="100%" height="580" scrolling="no" frameborder="no" src="hinanmap/nagano.html"></iframe>';
 }
 
 function gif(){
