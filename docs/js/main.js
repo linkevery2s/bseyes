@@ -86,7 +86,7 @@ $(function() {
     topBtn.click(function () {
         $('body,html').animate({
             scrollTop: 0
-        }, 5000000);
+        }, "slow");
         return false;
     });
 });
