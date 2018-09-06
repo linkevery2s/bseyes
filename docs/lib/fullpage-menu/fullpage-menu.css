@@ -512,6 +512,7 @@ body .top_back {
   bottom: 5px;
   right: 5px;
   background: #ff9900;
+border: solid 3px #ff9900;
 color: #fff;
   padding: 20px 15px 20px 15px;
   text-align: center;
