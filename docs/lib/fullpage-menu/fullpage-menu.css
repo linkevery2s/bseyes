@@ -522,6 +522,7 @@ color: #fff;
   border-bottom: 1px solid #f1f1f2;
   overflow: hidden;
 text-decoration: none;
+border-radius: 50%;
 }
 
 body .top_back a{
