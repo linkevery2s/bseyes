@@ -509,8 +509,8 @@ body .ai-eye {
 body .top_back {
   width: 70px;
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 5px;
+  right: 5px;
   background: #ff9900;
 color: #fff;
   padding: 20px 15px 20px 15px;
