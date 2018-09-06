@@ -509,13 +509,12 @@ body .ai-eye {
 body .top_back {
   width: 50px;
 height: 50px;
-line-height: 10px;
   position: fixed;
   bottom: 5px;
   right: 5px;
   background: #ff9900;
 color: #fff;
-  padding: 20px 15px 20px 15px;
+  /*padding: 20px 15px 20px 15px;*/
   text-align: center;
   box-sizing: border-box;
   text-transform: uppercase;
