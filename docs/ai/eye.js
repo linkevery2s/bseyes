@@ -5,7 +5,7 @@
 
   //初期メッセージ
   eyeui.message.bot({
-    content: 'こんにちは！'
+    content: '防災アシスタント「EYE」です。'
   }).then(init);
 
 
