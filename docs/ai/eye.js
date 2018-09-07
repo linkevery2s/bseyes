@@ -11,17 +11,22 @@
 
   function init() {
     eyeui.message.bot({
-      delay: 1500,  //メッセージの表示タイミングをずらす
+      delay: 1500,
       content: 'お呼びでしょうか？'
     }).then(function() {
 
-      //キーワードの入力
   eyeui.message.human({
     delay: 1500,
     content: 'こんにちは、ユーザーです！'
   });
  
+
+
   });
+
+
+
+
   }
 
 
