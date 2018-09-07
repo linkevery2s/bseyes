@@ -11,7 +11,7 @@
 
   function init() {
     eyeui.message.bot({
-      delay: 500,  //メッセージの表示タイミングをずらす
+      delay: 1500,  //メッセージの表示タイミングをずらす
       content: 'お呼びでしょうか？'
     }).then(function() {
 
