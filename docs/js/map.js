@@ -52,3 +52,29 @@ marker2 = L.marker([par[1], par[2]], {draggable:true} ).addTo(map);
 mas_button.disable();
 
 }
+
+function mail(){
+
+
+
+}
+
+function line(){
+
+
+
+}
+
+function tw(){
+
+
+
+
+}
+
+function fb(){
+
+
+
+
+}
