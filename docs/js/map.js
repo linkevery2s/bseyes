@@ -51,7 +51,7 @@ var map; var hash; var gps_button; var marker1;var mas_button ; var marker2; var
     	keido = position.coords.longitude;
     	map.setView([ido, keido], 17);
     	//marker1 = L.marker([ido, keido], {draggable:true} ).addTo(map);
-		gps_button.disable();
+		//gps_button.disable();
         //mas_button.disable();
 		//marker2.onRemove(map);
 	}
