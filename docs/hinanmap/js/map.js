@@ -1,5 +1,5 @@
 //version 5.
-var map;var p;var zoom;var marker; var markers = []; var gps_button; var hinanj;
+var map;var p;var zoom;var marker; var markers = []; var gps_button; var hinanj;var marker1;
 var todou ;var ido; var keido;
 
     function aichi_ini() {
@@ -652,6 +652,10 @@ function gps_get(position) {
    		map.setView([ido, keido], 17);
 	//marker = L.marker([ido, keido]);
 	//map.addLayer(marker);
+	var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
+	
+	marker1 = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
+	
 }
 
 function gps_error(error) {
