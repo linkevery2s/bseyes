@@ -15,19 +15,24 @@
       content: 'お呼びでしょうか？'
     }).then(function() {
 
-	eyeui.action.button({
+	return eyeui.action.button({
 		delay: 1000,
 		action: [
-			{text: "避難場所を調べたい", value: true},
-			{text: "雨雲の様子は？", value: false},
-			{text: "ハザードマップを見たい", value: false},
-			{text: "ここどこ？", value: false},
-			{text: "避難したい", value: false},
-			{text: "救急です。", value: false},
-			{text: "救助を求めたい", value: false}
+			{text: "避難場所を調べたい", value: "1"},
+			{text: "雨雲の様子は？", value: "2"},
+			{text: "ハザードマップを見たい", value: "3"},
+			{text: "ここどこ？", value: "4"},
+			{text: "避難したい", value: "5"},
+			{text: "救急です。", value: "6"},
+			{text: "救助を求めたい", value: "7"}
 		]
-	});
+	}).then(function(res){
 
+		delay: 1000;
+		content: 'お調べしました。'
+
+	
+	});
  
 
 
