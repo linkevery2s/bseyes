@@ -11,14 +11,23 @@
 
   function init() {
     eyeui.message.bot({
-      delay: 1500,
+      delay: 1000,
       content: 'お呼びでしょうか？'
     }).then(function() {
 
-  eyeui.message.human({
-    delay: 1500,
-    content: 'こんにちは、ユーザーです！'
-  });
+	eyeui.action.button({
+		delay: 1000,
+		action: [
+			{text: "避難場所を調べたい", value: true},
+			{text: "雨雲の様子は？", value: false},
+			{text: "ハザードマップを見たい", value: false},
+			{text: "ここどこ？", value: false},
+			{text: "避難したい", value: false},
+			{text: "救急です。", value: false},
+			{text: "救助を求めたい", value: false}
+		]
+	});
+
  
 
 

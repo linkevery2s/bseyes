@@ -90,3 +90,7 @@ $(function() {
         return false;
     });
 });
+
+function eye(){
+	$(".eye_display").show();
+}
