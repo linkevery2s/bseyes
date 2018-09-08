@@ -67,7 +67,7 @@ function discovery(x){
     }else if(x == "6"){
 		eyeui.message.bot({
 	  	delay: 1000,
-      	content: "119に発信します。<br><br><a href = 'tel:171'>119</a>"
+      	content: "119に発信します。<br><br><a href = 'tel:119'>119</a>"
     })
     }
 
