@@ -35,7 +35,17 @@
   <script src="leaflet/leaflet.js"></script>
   <script src="leaflet/leaflet-hash.js"></script>
   <script src="leaflet/src/easy-button.js"></script>
-
+  <style>
+    .leaflet-control-container::after {
+      content: url(https://linkevery2s.github.io/bseyes/img/cross.png);
+      z-index: 1000;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
 
   <!-- =======================================================
     Template Name: Polaroyd
