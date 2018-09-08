@@ -1,7 +1,7 @@
 (function() {
 
-  var eyeui = new BotUI('search-repo');
-
+	var eyeui = new BotUI('bs_chat');
+	var key;
 
   //初期メッセージ
   eyeui.message.bot({
@@ -23,27 +23,55 @@
 			{text: "ハザードマップを見たい", value: "3"},
 			{text: "ここどこ？", value: "4"},
 			{text: "避難したい", value: "5"},
-			{text: "救急です。", value: "6"},
-			{text: "救助を求めたい", value: "7"}
+			{text: "救急です。", value: "6"}
 		]
 	}).then(function(res){
 
-		delay: 1000;
-		content: 'お調べしました。'
-
+		key = res.value;
+		discovery(key);
 	
 	});
- 
-
 
   });
 
 
-
-
   }
 
+function discovery(x){
 
+	if(x == "1"){
+		eyeui.message.bot({
+	  	delay: 1000,
+      	content: "ここから調べられます。<br><br><a href='https://linkevery2s.github.io/bseyes/hinan.html' target='_blank'>避難マップ</a>"
+    })
+    }else if(x == "2"){
+		eyeui.message.bot({
+	  	delay: 1000,
+      	content: "雨雲レーダーを表示します。<br><br><a href='https://linkevery2s.github.io/bseyes/ame.html' target='_blank'>気象情報</a>"
+    })    
+    }else if(x == "3"){
+		eyeui.message.bot({
+	  	delay: 1000,
+      	content: "ここから調べられます。<br><br><a href='https://linkevery2s.github.io/bseyes/hazard.html' target='_blank'>ハザードマップ</a>"
+    })
+    }else if(x == "4"){
+		eyeui.message.bot({
+	  	delay: 1000,
+      	content: "ここはどこ"
+    })
+    }else if(x == "5"){
+		eyeui.message.bot({
+	  	delay: 1000,
+      	content: "避難したい"
+    })
+    }else if(x == "6"){
+		eyeui.message.bot({
+	  	delay: 1000,
+      	content: "119に発信します。<br><br><a href = 'tel:119'>119</a>"
+    })
+    }
+
+}
 
   //プログラムを終了する処理
   function end() {
