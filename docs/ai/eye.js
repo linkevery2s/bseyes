@@ -47,7 +47,7 @@ function discovery(x){
     }else if(x == "2"){
 		eyeui.message.bot({
 	  	delay: 1000,
-      	content: "雨雲レーダーを表示します。<br><br><a href='https://linkevery2s.github.io/bseyes/ame.html#map_canvas' target='_blank'>気象情報</a>"
+      	content: "雨雲レーダーを表示します。<br><br><a href='https://linkevery2s.github.io/bseyes/ame.html#map' target='_blank'>気象情報</a>"
     })    
     }else if(x == "3"){
 		eyeui.message.bot({
