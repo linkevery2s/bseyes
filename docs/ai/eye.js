@@ -54,7 +54,7 @@ function discovery(x){
     }else if(x == "3"){
 		eyeui.message.bot({
 	  	delay: 1000,
-      	content: "ハザードマップを見てみましょう！<br><br><a href='https://linkevery2s.github.io/bseyes/hazard.html' target='_blank'>ハザードマップ</a>"
+      	content: "ここから見てみましょう！<br><br><a href='https://linkevery2s.github.io/bseyes/hazard.html' target='_blank'>ハザードマップ</a>"
 	});
     }else if(x == "4"){
 		eyeui.message.bot({
