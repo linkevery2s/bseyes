@@ -45,7 +45,7 @@ eyeui.message.bot({
       	content: "避難マップを表示します。"
     }).then(function() {
 
-setTimeout(function(){ open("https://linkevery2s.github.io/bseyes/hinan.html", "_blank" ); }, 1500);
+setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/hinan.html"; }, 1500);
 });
     }else if(x == "2"){
 		eyeui.message.bot({
@@ -53,7 +53,7 @@ setTimeout(function(){ open("https://linkevery2s.github.io/bseyes/hinan.html", "
       	content: "雨雲レーダーを表示します。"
     }).then(function() {
 
-setTimeout(function(){ open("https://linkevery2s.github.io/bseyes/ame.html#map", "_blank" ); }, 1500);
+setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/ame.html#map"; }, 1500);
 
 });
     }else if(x == "3"){
@@ -62,7 +62,7 @@ setTimeout(function(){ open("https://linkevery2s.github.io/bseyes/ame.html#map",
       	content: "ハザードマップを表示します。"
     }).then(function() {
 
-setTimeout(function(){ open( "https://linkevery2s.github.io/bseyes/hazard.html", "_blank" ) ; }, 1500);
+setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/hazard.html"; }, 1500);
 
 });
     }else if(x == "4"){
