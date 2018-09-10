@@ -48,7 +48,7 @@ function discovery(x){
 		eyeui.message.bot({
 	  	delay: 1000,
       	content: "雨雲レーダーを表示します。<br><br><a href='https://linkevery2s.github.io/bseyes/ame.html#map' target='_blank'>気象情報</a>"
-    }) .then(function() {
+    }).then(function() {
 
 alert("am");
 
