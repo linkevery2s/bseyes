@@ -40,46 +40,39 @@
 function discovery(x){
 
 	if(x == "1"){
-eyeui.message.bot({
+	eyeui.message.bot({
 		delay: 1000,
-      	content: "避難マップを表示します。"
-    }).then(function() {
-
-setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/hinan.html"; }, 1500);
-});
+      	content: "ここから調べられます。<br><br><a href='https://linkevery2s.github.io/bseyes/hinan.html' target='_blank'>避難マップ</a>"
+	});
     }else if(x == "2"){
 		eyeui.message.bot({
 	  	delay: 1000,
       	content: "雨雲レーダーを表示します。"
     }).then(function() {
-
-setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/ame.html#map"; }, 1500);
-
-});
+		setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/ame.html#map"; }, 1500);
+	});
     }else if(x == "3"){
 		eyeui.message.bot({
 	  	delay: 1000,
-      	content: "ハザードマップを表示します。"
-    }).then(function() {
-
-setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/hazard.html"; }, 1500);
-
-});
+      	content: "ハザードマップを見てみましょう！<br><br><a href='https://linkevery2s.github.io/bseyes/hazard.html' target='_blank'>ハザードマップ</a>"
+	});
     }else if(x == "4"){
 		eyeui.message.bot({
 	  	delay: 1000,
-      	content: "ここはどこ"
-    })
+      	content: "GPSを解析し、現在地を表示します。"
+    }).then(function() {
+		setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/where.html#map"; }, 1500);
+	});
     }else if(x == "5"){
 		eyeui.message.bot({
 	  	delay: 1000,
       	content: "避難したい"
-    })
+    	})
     }else if(x == "6"){
 		eyeui.message.bot({
 	  	delay: 1000,
-      	content: "119に発信します。<br><br><a href = 'tel:119'>119</a>"
-    })
+      	content: "以下から119に発信できます。<br><br>「火事」か「救急」かお答えし、係の指示に従ってください。<br><br><a href='Tel:119' target='_blank'>１１９</a>"
+	});
     }
 
 }
