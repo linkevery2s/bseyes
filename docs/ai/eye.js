@@ -46,7 +46,7 @@ function discovery(x){
     })
     }else if(x == "2"){
 		eyeui.message.bot({
-	  	delay: 500,
+	  	delay: 1000,
       	content: "雨雲レーダーを表示します。"
     }).then(function() {
 
