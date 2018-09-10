@@ -50,7 +50,7 @@ function discovery(x){
       	content: "雨雲レーダーを表示します。<br><br><a href='https://linkevery2s.github.io/bseyes/ame.html#map' target='_blank'>気象情報</a>"
     }).then(function() {
 
-location.href("https://linkevery2s.github.io/bseyes/ame.html#map");
+location.href= "https://linkevery2s.github.io/bseyes/ame.html#map";
 
 });
     
