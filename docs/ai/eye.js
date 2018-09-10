@@ -46,11 +46,12 @@ function discovery(x){
     })
     }else if(x == "2"){
 		eyeui.message.bot({
-	  	delay: 1000,
+	  	delay: 500,
       	content: "雨雲レーダーを表示します。"
     }).then(function() {
 
-location.href= "https://linkevery2s.github.io/bseyes/ame.html#map";
+setTimeout(function(){ location.href= "https://linkevery2s.github.io/bseyes/ame.html#map"; }, 2000);
+
 
 });
     
