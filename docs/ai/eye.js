@@ -49,7 +49,7 @@ function discovery(x){
 	  	delay: 1000,
       	content: "雨雲レーダーを表示します。"
     }).then(function() {
-		setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/ame.html#map"; }, 1500);
+		setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/ame.html#map"; }, 1000);
 	});
     }else if(x == "3"){
 		eyeui.message.bot({
@@ -61,7 +61,7 @@ function discovery(x){
 	  	delay: 1000,
       	content: "GPSを解析し、現在地を表示します。"
     }).then(function() {
-		setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/where.html#map"; }, 1500);
+		setTimeout(function(){ GPS(); }, 1000);
 	});
     }else if(x == "5"){
 		eyeui.message.bot({
@@ -76,6 +76,28 @@ function discovery(x){
     }
 
 }
+
+
+	function GPS(){
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(gps_get,gps_error);
+     	} else {
+			alert("エラーが発生したので、現在地を取得できませんでした。");      
+     	}
+	}
+
+	function gps_get(position) {
+
+    	ido = position.coords.latitude;
+    	keido = position.coords.longitude;
+
+    	location.href ="https://linkevery2s.github.io/bseyes/whmap.html#12/" + ido + "/" + keido;
+	}
+
+	function gps_error(error) {
+       alert("エラーが発生したので、現在地を取得できませんでした。");
+	}
+
 
   //プログラムを終了する処理
   function end() {
