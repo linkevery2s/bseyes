@@ -91,7 +91,7 @@ function discovery(x){
     	ido = position.coords.latitude;
     	keido = position.coords.longitude;
 
-    	location.href ="https://linkevery2s.github.io/bseyes/whmap.html#12/" + ido + "/" + keido;
+    	location.href ="https://linkevery2s.github.io/bseyes/whmap.html#15/" + ido + "/" + keido;
 	}
 
 	function gps_error(error) {
