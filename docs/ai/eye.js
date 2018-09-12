@@ -79,13 +79,11 @@ function discovery(x){
 	}).then(function(res){
 
 		key = res.value;
-		discovery(key);
+		hinanh(key);
 	
 	});
 
   });
-
-
 
 
     }else if(x == "6"){
@@ -94,6 +92,12 @@ function discovery(x){
       	content: "以下から119に発信できます。<br><br>「火事」か「救急」かお答えし、係の指示に従ってください。<br><br><a href='Tel:119' target='_blank'>１１９</a>"
 	});
     }
+
+}
+
+function hinanh(y){
+
+alert(y);
 
 }
 
