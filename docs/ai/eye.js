@@ -72,12 +72,9 @@ function discovery(x){
 	return eyeui.action.button({
 		delay: 1000,
 		action: [
-			{text: "避難場所を調べたい", value: "1"},
-			{text: "雨雲の様子は？", value: "2"},
-			{text: "ハザードマップを見たい", value: "3"},
-			{text: "ここどこ？", value: "4"},
-			{text: "避難の仕方が分からない", value: "5"},
-			{text: "救急です。", value: "6"}
+			{text: "屋内", value: "1"},
+			{text: "屋外", value: "2"},
+			{text: "乗り物の中", value: "3"}
 		]
 	}).then(function(res){
 
