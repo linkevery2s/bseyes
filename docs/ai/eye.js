@@ -67,7 +67,7 @@ function discovery(x){
 		eyeui.message.bot({
 	  	delay: 1000,
       	content: "どこにいますか？"
-    	}) .then(function() {
+    	}).then(function() {
 
 	return eyeui.action.button({
 		delay: 1000,
