@@ -66,8 +66,31 @@ function discovery(x){
     }else if(x == "5"){
 		eyeui.message.bot({
 	  	delay: 1000,
-      	content: "避難したい"
-    	})
+      	content: "どこにいますか？"
+    	}) .then(function() {
+
+	return eyeui.action.button({
+		delay: 1000,
+		action: [
+			{text: "避難場所を調べたい", value: "1"},
+			{text: "雨雲の様子は？", value: "2"},
+			{text: "ハザードマップを見たい", value: "3"},
+			{text: "ここどこ？", value: "4"},
+			{text: "避難の仕方が分からない", value: "5"},
+			{text: "救急です。", value: "6"}
+		]
+	}).then(function(res){
+
+		key = res.value;
+		discovery(key);
+	
+	});
+
+  });
+
+
+
+
     }else if(x == "6"){
 		eyeui.message.bot({
 	  	delay: 1000,
