@@ -79,7 +79,20 @@ function discovery(x){
 	}).then(function(res){
 
 		key = res.value;
-		hinanh(key);
+		
+		if(key == "1"){
+		
+		hinan_okunai(key);
+		
+		}else if(key == "2"){
+
+		hinan_okugai(key);
+		
+		}else if(key == "3"){
+		
+		hinan_norimono(key);
+		
+		}
 	
 	});
 
@@ -95,12 +108,91 @@ function discovery(x){
 
 }
 
-function hinanh(y){
+function hinan_okunai(y){
 
-alert(y);
+		eyeui.message.bot({
+	  	delay: 1000,
+      	content: "次の中から選んでください。"
+    	}).then(function() {
+
+	return eyeui.action.button({
+		delay: 1000,
+		action: [
+			{text: "日常生活中", value: "1"},
+			{text: "台所", value: "2"},
+			{text: "お風呂・トイレ", value: "3"},
+			{text: "寝ている時", value: "4"},
+			{text: "マンション", value: "5"},
+			{text: "職場・オフィス", value: "6"},
+			{text: "スーパー・デパート", value: "7"},
+			{text: "映画館・劇場", value: "8"},
+			{text: "地下街", value: "9"},
+			{text: "学校", value: "10"},
+			{text: "エレベーター", value: "11"}
+		]
+	}).then(function(res){
+
+		key = res.value;
+
+	
+	});
+
+  });
 
 }
 
+function hinan_okugai(y){
+
+		eyeui.message.bot({
+	  	delay: 1000,
+      	content: "次の中から選んでください。"
+    	}).then(function() {
+
+	return eyeui.action.button({
+		delay: 1000,
+		action: [
+			{text: "住宅地", value: "1"},
+			{text: "オフィス街・中華街", value: "2"},
+			{text: "海岸", value: "3"},
+			{text: "川べり", value: "4"},
+			{text: "山・丘陵地", value: "5"}
+		]
+	}).then(function(res){
+
+		key = res.value;
+
+	
+	});
+
+  });
+
+}
+
+function hinan_norimono(y){
+
+		eyeui.message.bot({
+	  	delay: 1000,
+      	content: "次の中から選んでください。"
+    	}).then(function() {
+
+	return eyeui.action.button({
+		delay: 1000,
+		action: [
+			{text: "運転中", value: "1"},
+			{text: "鉄道", value: "2"},
+			{text: "新幹線", value: "3"},
+			{text: "地下鉄", value: "4"}
+		]
+	}).then(function(res){
+
+		key = res.value;
+
+	
+	});
+
+  });
+
+}
 
 	function GPS(){
 		if (navigator.geolocation) {
