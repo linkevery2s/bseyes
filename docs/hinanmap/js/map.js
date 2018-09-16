@@ -314,19 +314,6 @@ var todou ;var ido; var keido;
 
 	}
 
-    function shiga_ini() {
-		map = L.map('map');
-		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
-  		}).addTo(map);
-		map.setView([35.255, 135.950], 8);
-
-		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
-		todou = L.geoJson(shiga, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
-
-	}
-
     function mie_ini() {
 		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
