@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript">
+ function getAltitude(lon, lat){
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function(){
+    if (xhr.readyState === 4 && xhr.status === 200){
+      var json_data = eval( '('+xhr.responseText +')');
+      var txt;
+      txt = '標高:' + json_data.elevation + 'm\n';
+      var result = document.getElementById('data_result');
+      result.value = txt;
+    }
+  };
+  var url = "http://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=" + lon + "&lat=" + lat +"&outtype=JSON";
+  xhr.open('GET', url);
+  xhr.send(null);
+};
+</script>
+</head>
+<body>
+<h2>国土地理院　標高APIから標高データ取得</h2>
+<input type="button"  value="標高取得" onclick="getAltitude(138.730087,35.362951)"></button>
+<textarea style="display: block; width: 400px; height: 150px; " id="data_result"></textarea>
+</body>
+</html>
