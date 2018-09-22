@@ -13,7 +13,7 @@
       result.value = txt;
     }
   };
-  var url = "http://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=" + lon + "&lat=" + lat +"&outtype=JSON";
+  var url = "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=" + lon + "&lat=" + lat +"&outtype=JSON";
   xhr.open('GET', url);
   xhr.send(null);
 };
