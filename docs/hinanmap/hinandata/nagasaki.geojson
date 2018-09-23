@@ -1,4 +1,4 @@
-var nagasaki={"type":"FeatureCollection","name":"nagasaki","features":[
+var k ={"type":"FeatureCollection","name":"nagasaki","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[129.8812190000,32.7543510000]},"properties":{"Name":"長崎公園","Jusho":"長崎県長崎市上西山町・立山１、４丁目","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[129.8715710000,32.7543020000]},"properties":{"Name":"西坂公園","Jusho":"長崎県長崎市西坂町","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[129.8756640000,32.7514120000]},"properties":{"Name":"中町公園","Jusho":"長崎県長崎市中町","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"×"}},

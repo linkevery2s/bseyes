@@ -1,4 +1,4 @@
-var gifu={"type":"FeatureCollection","name":"gifu","features":[
+var k ={"type":"FeatureCollection","name":"gifu","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.7663090746,35.4331894169]},"properties":{"Name":"岐阜小学校校庭","Jusho":"岐阜県岐阜市大工町１","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.7740500516,35.4336300136]},"properties":{"Name":"岐阜公園(山地を除く)","Jusho":"岐阜県岐阜市大宮町１","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.7673378277,35.4283243894]},"properties":{"Name":"伊奈波神社参道脇公園","Jusho":"岐阜県岐阜市伊奈波通１－８０－２","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"×"}},

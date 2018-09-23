@@ -1,4 +1,4 @@
-var tokyo={"type":"FeatureCollection","name":"tokyo","features":[
+var k ={"type":"FeatureCollection","name":"tokyo","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7713289086,35.6765726136]},"properties":{"Name":"京橋区民館","Jusho":"東京都中央区京橋２-６-７","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7716407116,35.6731840640]},"properties":{"Name":"京橋プラザ","Jusho":"東京都中央区銀座１-２５-３","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7614578552,35.6722529696]},"properties":{"Name":"泰明小学校","Jusho":"東京都中央区銀座５-１-１３","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},

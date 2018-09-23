@@ -1,4 +1,4 @@
-var osaka={"type":"FeatureCollection","name":"osaka","features":[
+var k ={"type":"FeatureCollection","name":"osaka","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.5746412000,34.7137142000]},"properties":{"Name":"鶴見緑地","Jusho":"大阪府大阪市鶴見区緑地公園、緑３、浜１大阪府守口市大字高瀬旧馬場","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.5191280000,34.6960324300]},"properties":{"Name":"滝川小学校（運動場）","Jusho":"大阪府大阪市北区天満１-24-15","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.5185889000,34.6961013500]},"properties":{"Name":"滝川小学校","Jusho":"大阪府大阪市北区天満1-24-15","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},

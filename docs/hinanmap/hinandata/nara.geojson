@@ -1,4 +1,4 @@
-var nara={"type":"FeatureCollection","name":"nara","features":[
+var k ={"type":"FeatureCollection","name":"nara","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.8337503228,34.7069130224]},"properties":{"Name":"青山近隣公園","Jusho":"奈良県奈良市青山3-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.8338986745,34.6839891183]},"properties":{"Name":"奈良公園","Jusho":"奈良県奈良市登大路町　外","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"内、県所有87、600㎡　その他国所有"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.9113322000,34.6593976300]},"properties":{"Name":"田原小学校","Jusho":"奈良県奈良市横田町199‐１","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},

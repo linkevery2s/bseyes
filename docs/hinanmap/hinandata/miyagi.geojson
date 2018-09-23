@@ -1,4 +1,4 @@
-var miyagi = {"type":"FeatureCollection","name":"miyagi","features":[
+var k = {"type":"FeatureCollection","name":"miyagi","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.8494853000,38.3033467400]},"properties":{"Name":"桜丘小学校","Jusho":"宮城県仙台市青葉区桜ケ丘8-1-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.8978311000,38.2769208000]},"properties":{"Name":"幸町小学校","Jusho":"宮城県仙台市宮城野区幸町2-19-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.8811131000,38.2484781800]},"properties":{"Name":"荒町小学校","Jusho":"宮城県仙台市若林区荒町86","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},

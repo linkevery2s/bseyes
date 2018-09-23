@@ -1,4 +1,4 @@
-var yamanashi={"type":"FeatureCollection","name":"yamanashi","features":[
+var k ={"type":"FeatureCollection","name":"yamanashi","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[138.5760735363,35.6522176625]},"properties":{"Name":"甲府市総合市民会館駐車場","Jusho":"山梨県甲府市青沼三丁目5-44","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[138.5831495954,35.6514832607]},"properties":{"Name":"東小学校グラウンド","Jusho":"山梨県甲府市朝気一丁目14-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[138.5833483116,35.6430634936]},"properties":{"Name":"青葉スポーツ広場グラウンド","Jusho":"山梨県甲府市青葉町19-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"×"}},

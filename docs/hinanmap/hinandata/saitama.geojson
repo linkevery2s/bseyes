@@ -1,4 +1,4 @@
-var saitama={"type":"FeatureCollection","name":"saitama","features":[
+var k ={"type":"FeatureCollection","name":"saitama","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.5728946000,35.9224173700]},"properties":{"Name":"指扇小学校","Jusho":"埼玉県さいたま市西区大字指扇４２２６","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"「洪水」は３階以上のみ"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.5714947000,35.9037274200]},"properties":{"Name":"馬宮東小学校","Jusho":"埼玉県さいたま市西区大字西遊馬１８９-１","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.5595105172,35.8861182412]},"properties":{"Name":"馬宮西小学校","Jusho":"埼玉県さいたま市西区大字飯田新田１８９-２","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"「洪水」は３階以上のみ"}},

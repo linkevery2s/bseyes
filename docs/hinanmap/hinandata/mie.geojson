@@ -1,4 +1,4 @@
-var mie={"type":"FeatureCollection","name":"mie","features":[
+var k ={"type":"FeatureCollection","name":"mie","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.4722835000,34.8078574400]},"properties":{"Name":"豊が丘小学校","Jusho":"三重県津市豊が丘二丁目34-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.4620800000,34.7932623100]},"properties":{"Name":"高野尾出張所","Jusho":"三重県津市高野尾町5417-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.4619292000,34.7928131800]},"properties":{"Name":"高野尾小学校","Jusho":"三重県津市高野尾町5266-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},

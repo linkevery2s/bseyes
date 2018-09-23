@@ -1,4 +1,4 @@
-var kanagawa={"type":"FeatureCollection","name":"kanagawa","features":[
+var k ={"type":"FeatureCollection","name":"kanagawa","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6237660000,35.4432600000]},"properties":{"Name":"横浜市立東小学校　校舎１","Jusho":"神奈川県横浜市西区東ケ丘59","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6238300000,35.4436790000]},"properties":{"Name":"横浜市立東小学校　体育館","Jusho":"神奈川県横浜市西区東ケ丘59","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6124280000,35.4488190000]},"properties":{"Name":"横浜市立稲荷台小学校　校舎７","Jusho":"神奈川県横浜市西区藤棚町2-220","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},

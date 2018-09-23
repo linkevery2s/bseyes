@@ -1,4 +1,4 @@
-var tochigi={"type":"FeatureCollection","name":"tochigi","features":[
+var k={"type":"FeatureCollection","name":"tochigi","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.8847722573,36.5592596612]},"properties":{"Name":"中央小学校","Jusho":"栃木県宇都宮市中央本町１-29","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.8911201152,36.5652138151]},"properties":{"Name":"東小学校","Jusho":"栃木県宇都宮市東塙田１-6-14","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.8782731648,36.5597041510]},"properties":{"Name":"西小学校","Jusho":"栃木県宇都宮市西1-2-13","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},

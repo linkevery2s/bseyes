@@ -6,7 +6,6 @@
 	<title>台風シミュレーション</title>
 
 <link href="leaflet.css" rel="stylesheet" type="text/css" />
-<!-- <script src="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.js"></script> -->
 <script src="leaflet.js"></script>
 <style>
 
@@ -50,8 +49,8 @@ html,body{
 
 		var map = L.map('map');
 
-		var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+		var positron = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
 		}).addTo(map);
 
 

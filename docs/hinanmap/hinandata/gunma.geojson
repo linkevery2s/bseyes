@@ -1,4 +1,4 @@
-var gunma={"type":"FeatureCollection","name":"gunma","features":[
+var k={"type":"FeatureCollection","name":"gunma","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.0648642000,36.3840376300]},"properties":{"Name":"県立前橋女子高等学校","Jusho":"群馬県前橋市紅雲町２-１９-１","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.0604943000,36.3937936900]},"properties":{"Name":"前橋公園","Jusho":"群馬県前橋市大手町一丁目、三丁目地内、他","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.0899125000,36.3865233500]},"properties":{"Name":"保健センター","Jusho":"群馬県前橋市朝日町三丁目３６-１７","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},

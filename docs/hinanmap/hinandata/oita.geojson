@@ -1,4 +1,4 @@
-var oita={"type":"FeatureCollection","name":"oita","features":[
+var k ={"type":"FeatureCollection","name":"oita","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[131.6133520000,33.2339650000]},"properties":{"Name":"金池小学校","Jusho":"大分県大分市金池町３丁目１番９０号","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"○","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[131.6126490000,33.2287240000]},"properties":{"Name":"上野ヶ丘中学校","Jusho":"大分県大分市上野町４番５号","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"○","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[131.6119950000,33.2215800000]},"properties":{"Name":"大分上野丘高等学校","Jusho":"大分県大分市上野ヶ丘２丁目１０番１号","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"○","指定避難所との重複":"○","備考":"×"}},

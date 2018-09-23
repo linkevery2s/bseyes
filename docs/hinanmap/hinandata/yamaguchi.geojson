@@ -1,4 +1,4 @@
-var yamaguchi={"type":"FeatureCollection","name":"yamaguchi","features":[
+var k ={"type":"FeatureCollection","name":"yamaguchi","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[130.9484500985,33.9652758129]},"properties":{"Name":"養治小学校","Jusho":"山口県下関市本町2丁目6-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[130.9425450739,33.9600127002]},"properties":{"Name":"本行寺","Jusho":"山口県下関市赤間町3-12","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[130.9416503840,33.9687354096]},"properties":{"Name":"社会福祉センター","Jusho":"山口県下関市貴船町3丁目4-1","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},

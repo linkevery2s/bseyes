@@ -1,4 +1,4 @@
-var okayama={"type":"FeatureCollection","name":"okayama","features":[
+var k ={"type":"FeatureCollection","name":"okayama","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[133.8015572222,34.7303463889]},"properties":{"Name":"足守小学校","Jusho":"岡山県岡山市北区足守789","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[133.7991255556,34.7431452778]},"properties":{"Name":"蛍明小学校、足守中学校","Jusho":"岡山県岡山市北区大井360","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[133.9117502778,34.6666586111]},"properties":{"Name":"石井小学校","Jusho":"岡山県岡山市北区寿町2-8","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},

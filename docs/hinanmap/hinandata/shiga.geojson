@@ -1,4 +1,4 @@
-var shiga={"type":"FeatureCollection","name":"shiga","features":[
+var k ={"type":"FeatureCollection","name":"shiga","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.9737663683,35.2549802506]},"properties":{"Name":"小松市民センター","Jusho":"滋賀県大津市北小松565","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.9568124271,35.2355541278]},"properties":{"Name":"小松小学校体育館","Jusho":"滋賀県大津市南小松1122","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.9565924860,35.2362880404]},"properties":{"Name":"小松小学校グラウンド","Jusho":"滋賀県大津市南小松1122","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"×"}},

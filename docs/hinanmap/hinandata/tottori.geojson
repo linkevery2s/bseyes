@@ -1,4 +1,4 @@
-var tottori={"type":"FeatureCollection","name":"tottori","features":[
+var k ={"type":"FeatureCollection","name":"tottori","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[134.2382910000,35.5048240000]},"properties":{"Name":"鳥取市武道館","Jusho":"鳥取県鳥取市東町1-326","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[134.2365289458,35.5056661921]},"properties":{"Name":"久松小学校","Jusho":"鳥取県鳥取市東町2-201","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[134.2348936082,35.5093509818]},"properties":{"Name":"北中学校","Jusho":"鳥取県鳥取市東町3-371-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},

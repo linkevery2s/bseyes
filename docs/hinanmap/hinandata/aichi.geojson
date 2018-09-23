@@ -1,4 +1,4 @@
-var aichi={"type":"FeatureCollection","name":"aichi","features":[
+var k={"type":"FeatureCollection","name":"aichi","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.9341737300,35.1627865700]},"properties":{"Name":"千種小学校","Jusho":"愛知県名古屋市千種区千種3-2-5","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.9326113700,35.1657785600]},"properties":{"Name":"今池中学校","Jusho":"愛知県名古屋市千種区今池3-19-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.9348334500,35.1627000400]},"properties":{"Name":"千種コミュニティセンター","Jusho":"愛知県名古屋市千種区千種3-2-11","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},

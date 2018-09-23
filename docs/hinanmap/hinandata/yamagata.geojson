@@ -1,4 +1,4 @@
-var yamagata={"type":"FeatureCollection","name":"yamagata","features":[
+var k={"type":"FeatureCollection","name":"yamagata","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.3608737143,38.2652058724]},"properties":{"Name":"鈴川コミュニティセンター","Jusho":"山形県山形市山家町2-4-48","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"○","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.3438300066,38.2874637192]},"properties":{"Name":"千歳コミュニティセンター","Jusho":"山形県山形市落合町1087-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"○","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.2942286248,38.2559021984]},"properties":{"Name":"飯塚コミュニティセンター","Jusho":"山形県山形市横道7","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"○","指定避難所との重複":"○","備考":"×"}},

@@ -1,4 +1,4 @@
-var saga={"type":"FeatureCollection","name":"saga","features":[
+var k ={"type":"FeatureCollection","name":"saga","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[130.2976400000,33.2557220000]},"properties":{"Name":"勧興公民館","Jusho":"佐賀県佐賀市成章町3-18","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[130.2969360000,33.2566350000]},"properties":{"Name":"勧興小学校","Jusho":"佐賀県佐賀市成章町3-16","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[130.2947820000,33.2565170000]},"properties":{"Name":"成章中学校","Jusho":"佐賀県佐賀市成章町7-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},

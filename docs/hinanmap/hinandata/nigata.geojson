@@ -1,4 +1,4 @@
-var nigata={"type":"FeatureCollection","name":"nigata","features":[
+var k={"type":"FeatureCollection","name":"nigata","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[138.9779908018,37.6273087797]},"properties":{"Name":"新潟県神社庁","Jusho":"新潟県三条市下坂井14-21","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[138.9583463873,37.6283493260]},"properties":{"Name":"東映ムービル","Jusho":"新潟県三条市本町1-9-6","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[138.9513914376,37.6335203363]},"properties":{"Name":"八幡会館","Jusho":"新潟県三条市八幡町12-18","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"×","備考":"×"}},

@@ -1,4 +1,4 @@
-var toyama={"type":"FeatureCollection","name":"toyama","features":[
+var k ={"type":"FeatureCollection","name":"toyama","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[137.2095850000,36.6904420000]},"properties":{"Name":"旧総曲輪小学校(体育館)","Jusho":"富山県富山市総曲輪4-4-7","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[137.2172950000,36.6933920000]},"properties":{"Name":"旧八人町小学校（富山市教育センター）","Jusho":"富山県富山市八人町5-17","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[137.2067700000,36.7012210000]},"properties":{"Name":"雄峰高校","Jusho":"富山県富山市神通町2-12-10","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},

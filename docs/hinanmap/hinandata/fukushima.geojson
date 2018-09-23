@@ -1,4 +1,4 @@
-fukushima={"type":"FeatureCollection","name":"fukushima","features":[
+var k ={"type":"FeatureCollection","name":"fukushima","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.4668291000,37.7514046800]},"properties":{"Name":"福島第一小学校","Jusho":"福島県福島市杉妻町１-２４","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"○","kazan":"○","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.4734156000,37.7588339400]},"properties":{"Name":"福島第二小学校","Jusho":"福島県福島市浜田町２-１","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"○","kazan":"○","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.4786741000,37.7614570400]},"properties":{"Name":"福島第二中学校","Jusho":"福島県福島市桜木町５-２０","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○","指定避難所との重複":"○","備考":"×"}},

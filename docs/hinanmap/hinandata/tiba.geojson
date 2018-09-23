@@ -1,4 +1,4 @@
-var tiba={"type":"FeatureCollection","name":"tiba","features":[
+var k ={"type":"FeatureCollection","name":"tiba","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.1143030000,35.6079090000]},"properties":{"Name":"新宿小学校","Jusho":"千葉県千葉市中央区新宿2-15-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.1281190000,35.6093200000]},"properties":{"Name":"本町小学校","Jusho":"千葉県千葉市中央区本町2-6-23","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.1218040000,35.5973170000]},"properties":{"Name":"寒川小学校","Jusho":"千葉県千葉市中央区寒川町1-205","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},

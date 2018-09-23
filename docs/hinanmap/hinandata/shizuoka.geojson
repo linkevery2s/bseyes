@@ -1,4 +1,4 @@
-var shizuoka={"type":"FeatureCollection","name":"shizuoka","features":[
+var k ={"type":"FeatureCollection","name":"shizuoka","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[137.7268640172,34.7121026236]},"properties":{"Name":"元城小学校","Jusho":"静岡県浜松市中区元城町102-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[137.7234608406,34.7136690685]},"properties":{"Name":"中部中学校","Jusho":"静岡県浜松市中区松城町108-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[137.7248490000,34.7126460000]},"properties":{"Name":"浜松城公園","Jusho":"静岡県浜松市中区元城町100-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},

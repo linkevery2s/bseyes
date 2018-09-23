@@ -1,4 +1,4 @@
-var kagawa={"type":"FeatureCollection","name":"kagawa","features":[
+var k ={"type":"FeatureCollection","name":"kagawa","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[134.0298057000,34.3471811700]},"properties":{"Name":"日新小学校跡施設","Jusho":"香川県高松市瀬戸内町１８-２","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[134.0409621000,34.3458691800]},"properties":{"Name":"新番丁小学校","Jusho":"香川県高松市錦町２-１４-１","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[134.0470236000,34.3433503300]},"properties":{"Name":"四番丁小学校跡施設","Jusho":"香川県高松市番町１-５-１","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},

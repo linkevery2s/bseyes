@@ -1,4 +1,4 @@
-var hokkaido={"type":"FeatureCollection","name":"hokk","features":[
+var k={"type":"FeatureCollection","name":"hokk","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[141.3281301309,43.0678862611]},"properties":{"Name":"桑園小学校","Jusho":"北海道札幌市中央区北８条西１７丁目１","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[141.3175264793,43.0668505719]},"properties":{"Name":"日新小学校","Jusho":"北海道札幌市中央区北８条西２５丁目２-１","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[141.3596855802,43.0676955470]},"properties":{"Name":"中央中学校","Jusho":"北海道札幌市中央区北４条東３丁目","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},

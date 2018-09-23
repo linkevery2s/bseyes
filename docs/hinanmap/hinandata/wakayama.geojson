@@ -1,4 +1,4 @@
-var wakayama={"type":"FeatureCollection","name":"wakayama","features":[
+var k ={"type":"FeatureCollection","name":"wakayama","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.1710306000,34.2348909000]},"properties":{"Name":"伏虎義務教育学校（tsunami時は3階以上）","Jusho":"和歌山県和歌山市鷺ノ森南ノ丁１","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.1711890000,34.2263760000]},"properties":{"Name":"和歌山公園（和歌山城）","Jusho":"和歌山県和歌山市一番丁３","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.1682661000,34.2301410000]},"properties":{"Name":"汀公園","Jusho":"和歌山県和歌山市西汀丁２７","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},

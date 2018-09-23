@@ -1,4 +1,4 @@
-var okinawa={"type":"FeatureCollection","name":"okinawa","features":[
+var k ={"type":"FeatureCollection","name":"okinawa","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[127.6862262500,26.2123249800]},"properties":{"Name":"松尾公園","Jusho":"沖縄県那覇市松尾2-6","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[127.6869978600,26.2068062500]},"properties":{"Name":"中央公園","Jusho":"沖縄県那覇市樋川1-15","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[127.6772305956,26.2183698017]},"properties":{"Name":"松山公演","Jusho":"沖縄県那覇市松山1-17","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},

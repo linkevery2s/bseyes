@@ -1,4 +1,4 @@
-var nagano={"type":"FeatureCollection","name":"nagano","features":[
+var k ={"type":"FeatureCollection","name":"nagano","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[137.9663300000,36.2333740000]},"properties":{"Name":"Mウイング","Jusho":"長野県松本市中央1-18-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[137.9677560000,36.2285410000]},"properties":{"Name":"駅前記念公園","Jusho":"長野県松本市本庄1-907","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[137.9684430000,36.2319810000]},"properties":{"Name":"中央西公園（花時計公園）","Jusho":"長野県松本市中央2-9","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},

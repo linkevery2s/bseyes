@@ -1,4 +1,4 @@
-var shimane={"type":"FeatureCollection","name":"shimane","features":[
+var k ={"type":"FeatureCollection","name":"shimane","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[133.0650923000,35.4771531200]},"properties":{"Name":"母衣幼稚園","Jusho":"島根県松江市北田町273","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[133.0654946000,35.4763362100]},"properties":{"Name":"母衣小学校","Jusho":"島根県松江市北田町273","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[133.0654937000,35.4724055100]},"properties":{"Name":"松江市総合体育館","Jusho":"島根県松江市学園南1-21-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×","指定避難所との重複":"○","備考":"×"}},

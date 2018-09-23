@@ -1,4 +1,4 @@
-var fukui={"type":"FeatureCollection","name":"fukui","features":[
+var k ={"type":"FeatureCollection","name":"fukui","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.2200654490,36.0601126588]},"properties":{"Name":"柴田公園","Jusho":"福井県福井市中央1丁目21","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.2137790000,36.0648950000]},"properties":{"Name":"錦公園","Jusho":"福井県福井市順化2丁目11","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.2193408784,36.0678970060]},"properties":{"Name":"神明公園","Jusho":"福井県福井市宝永4丁目8","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},

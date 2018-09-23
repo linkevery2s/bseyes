@@ -1,4 +1,4 @@
-var kochi={"type":"FeatureCollection","name":"kochi","features":[
+var k ={"type":"FeatureCollection","name":"kochi","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[133.9123531000,33.4996114000]},"properties":{"Name":"港町1丁目tsunami避難タワー","Jusho":"高知県安芸市港町1丁目674-10","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[133.9123316000,33.4978578300]},"properties":{"Name":"港町集会所","Jusho":"高知県安芸市港町1丁目737-12","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},
 {"type":"Feature","geometry":{"type":"Point","coordinates":[133.9133203000,33.5008632200]},"properties":{"Name":"高知高須病院附属安芸診療所","Jusho":"高知県安芸市港町2丁目635","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×","指定避難所との重複":"×","備考":"×"}},
