@@ -7,6 +7,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
   <meta content="" name="keywords">
   <meta content="" name="description">
+    <link rel="manifest" href="./manifest.json">
+    <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./service-worker.js').then(function() { console.log('Service Worker Registered'); });
+    }
+    </script>
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
