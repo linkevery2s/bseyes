@@ -5,14 +5,14 @@
 
   //初期メッセージ
   eyeui.message.bot({
-    content: '防災アシスタント「EYE」です。'
+    content: 'EYEです。'
   }).then(init);
 
 
   function init() {
     eyeui.message.bot({
       delay: 1000,
-      content: 'お呼びでしょうか？'
+      content: 'どんなことが知りたいですか？'
     }).then(function() {
 
 	return eyeui.action.button({
@@ -22,7 +22,7 @@
 			{text: "雨雲の様子は？", value: "2"},
 			{text: "ハザードマップを見たい", value: "3"},
 			{text: "ここどこ？", value: "4"},
-			{text: "避難の仕方が分からない", value: "5"},
+			{text: "避難方法を知りたい", value: "5"},
 			{text: "救急です。", value: "6"}
 		]
 	}).then(function(res){
@@ -211,12 +211,13 @@ function hinan_okunai(y){
     		})
 		}
 
-	
-	});
+	}).then(function(){tugi()});
+
 
   });
 
 }
+
 
 function hinan_okugai(y){
 
@@ -272,12 +273,8 @@ function hinan_okugai(y){
       		content: "対処方法は以下のとおりです。<br><br> 落石に注意し、急傾斜地など危険な場所から遠ざかる！<br><br>登山やハイキングで山にいる時に強い揺れに襲われた場合には、まず落石から身を守る。<br><br>地震で地盤がゆるみ、崩れやすくなっている可能性があるため、崖や急傾斜地など危険な場所には近づかない。"
     		})
 		}
-
-
-
-
 	
-	});
+	}).then(function(){tugi()});
 
   });
 
@@ -293,21 +290,87 @@ function hinan_norimono(y){
 	return eyeui.action.button({
 		delay: 1000,
 		action: [
-			{text: "運転中", value: "1"},
+			{text: "車の中", value: "1"},
 			{text: "鉄道", value: "2"},
 			{text: "新幹線", value: "3"},
-			{text: "地下鉄", value: "4"}
+			{text: "地下鉄", value: "4"},
+			{text: "バス", value: "5"}
 		]
 	}).then(function(res){
 
 		key = res.value;
 
+		if(key == "1"){
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "対処方法は以下のとおりです。<br><br>揺れを感じたら<br>①急ブレーキは禁物！ハンドルをしっかり握り、前後の車に注意しながら徐々にスピードを落とし、道路の左側に停車する。<br><br>②エンジンを切り、揺れがおさまるまでは車外に出ず、カーラジオやスマートフォンから情報を入手する。<br><br>③避難の必要がある場合は、車のキーはつけたままにし、ドアをロックしないで、窓を閉める。<br><br>④連絡先を見えるところに書き、車検証などの貴重品を持ち、徒歩で避難する。<br><br>車での避難は、緊急自動車などの妨げになる。<br><br>高速道路では、普通の道路を走行中の対処に加え、以下の点にも留意する。<br><br>①高速走行しているのでハザードランプを点灯させ、前後の車に注意を喚起する。<br><br>②高速道路では約１ｋｍごとに非常口を設けているので、徒歩で地上に脱出することができる。"
+    		})
+		}
+
+		if(key == "2"){
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "対処方法は以下のとおりです。<br><br>強い揺れを感知すると電車は緊急停車する！<br><br>座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>停車後は、乗務員の指示に従う。"
+    		})
+		}
+
+		if(key == "3"){
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "対処方法は以下のとおりです。<br><br>新幹線は早期地震検知警戒システム（ユレダス）が作動して緊急停車する！<br><br>高速走行しているので、座席に座っている場合には、前に飛び出さないように座席の間に体を隠し、立っている場合には手すりをしっかり握って転倒しないようにする。<br><br>停車後は、乗務員の指示に従う。"
+    		})
+		}
+
+		if(key == "4"){
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "対処方法は以下のとおりです。<br><br>震度５弱程度の揺れを観測した場合に運転を停止し、線路途中なら安全を確認し、低速で最寄りの駅に向かう！<br><br>座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>停電になっても非常灯が1時間程度は点灯するので、慌てずに行動する。<br><br>地下鉄によっては高圧電線が線路脇に設置されているので、勝手に線路に飛び降りると危険！<br><br>停車後は、乗務員の指示に従う。"
+    		})
+		}
+
+		if(key == "5"){
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "対処方法は以下のとおりです。<br><br>強い揺れを感じた場合に、危険を回避するために急ブレーキが踏まれることがある！<br><br>座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>停車後は、乗務員の指示に従う。"
+    		})
+		}
+
+
 	
-	});
+	}).then(function(){tugi()});
 
   });
 
 }
+
+function tugi(){
+
+eyeui.message.bot({
+  delay: 5000,
+  content: '他に知りたいことはありますか？'
+}).then(function() {
+
+  return eyeui.action.button({
+    delay: 1000,  
+    action: [{
+      icon: 'circle-thin',
+      text: 'はい',
+      value: true
+    }, {
+      icon: 'close',
+      text: 'いいえ',
+      value: false
+    }]
+  });
+}).then(function(res) {
+	res.value ? init() : end();
+  
+});
+
+
+}
+
+
 
 	function GPS(){
 		if (navigator.geolocation) {
@@ -333,6 +396,7 @@ function hinan_norimono(y){
   //プログラムを終了する処理
   function end() {
     eyeui.message.bot({
+      delay: 1000,
       content: 'ご利用ありがとうございました！'
     })
   }
