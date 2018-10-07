@@ -137,29 +137,116 @@ function hinan_okunai(y){
 		if(key == "1"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>机やテーブルの下にもぐり、自分の身を守る。<br><br>動く時は、スリッパ等を履く。ガラス片等で足を怪我する可能性がある。<br><br>戸を開けて出入り口を確保する。家の中に閉じ込められる恐れがある。"
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "机やテーブルの下にもぐり、自分の身を守る。"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+      		delay: 1000,
+      		content: "動く時は、スリッパ等を履く。ガラス片等で足を怪我する可能性がある。"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+      		delay: 1000,
+      		content: "戸を開けて出入り口を確保する。家の中に閉じ込められる恐れがある。"
+    		})
+
+    		}).then(function() {tugi()})
+    		
+    		})
+
+
     		})
 		}
 
 		if(key == "2"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>テーブルの下にもぐり、身の安全を確保する。<br><br>慌てて火を消そうとすると、やけどする危険があるので、揺れがおさまるのを待ってから火を消す。<br><br>食器棚や冷蔵庫が倒れてくるだけではなく、中身が飛び出してくる事があるので、注意する。"
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "テーブルの下にもぐり、身の安全を確保する。"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "慌てて火を消そうとすると、やけどする危険があるので、揺れがおさまるのを待ってから火を消す。"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "食器棚や冷蔵庫が倒れてくるだけではなく、中身が飛び出してくる事があるので、注意する。"
     		})
+    		
+    		}).then(function() {tugi()})
+    		})
+    		})
+
+
 		}
 
 		if(key == "3"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>風呂場では、タイルや鏡、トイレでは水洗タンクが落ちてくることがあるので、注意する。<br><br>入浴中は、鏡やガラスの破損による怪我に注意する。<br><br>浴槽の中では、風呂のふた等をかぶり、頭を守る。<br><br>揺れがおさまってから、避難する。"
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "風呂場では、タイルや鏡、トイレでは水洗タンクが落ちてくることがあるので、注意する。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "浴槽の中では、風呂のふた等をかぶり、頭を守る。"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "入浴中は、鏡やガラスの破損による怪我に注意する。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "揺れがおさまってから、避難する。"
+      		})
+    		}).then(function() {tugi()})
     		})
+    		})
+    		})
+    		
 		}
 
 		if(key == "4"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>揺れで目が覚めたら、寝具にもぐりこむか、ベッドの中にうずくまる。<br><br>枕元にはスリッパ、懐中電灯、ラジオやスマートフォンを置いておく。<br><br>寝室にタンス等を置く場合は、天井と固定しておき、倒れないようにする。"
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "揺れで目が覚めたら、寝具にもぐりこむか、ベッドの中にうずくまる。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "枕元にはスリッパ、懐中電灯、ラジオやスマートフォンを置いておく。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "寝室にタンス等を置く場合は、天井と固定しておき、倒れないようにする。"
     		})
+    		}).then(function() {tugi()})
+    		})
+    		})
+
 		}
 
 		if(key == "5"){
@@ -211,7 +298,7 @@ function hinan_okunai(y){
     		})
 		}
 
-	}).then(function(){tugi()});
+	})
 
 
   });
@@ -346,7 +433,7 @@ function hinan_norimono(y){
 function tugi(){
 
 eyeui.message.bot({
-  delay: 5000,
+  delay: 2000,
   content: '他に知りたいことはありますか？'
 }).then(function() {
 
