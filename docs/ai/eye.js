@@ -252,50 +252,191 @@ function hinan_okunai(y){
 		if(key == "5"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>机の下にもぐり、揺れがおさまるのを待つ。<br><br>高層階では、揺れの幅が大きくなる。<br><br>非常口の確認をしておく。"
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "机の下にもぐり、揺れがおさまるのを待つ。"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "高層階では、揺れの幅が大きくなる。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "非常口の確認をしておく。"
     		})
+    		}).then(function() {tugi()})
+    		})
+    		})
+
 		}
 
 		if(key == "6"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>窓ガラスが割れることがあるので、窓辺から離れる。<br><br>OA機器の落下に注意する。<br><br>日頃から整理整頓を行い、職場環境を綺麗に心がける。<br><br>避難時はエレベーターを使用しないようにする。"
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "窓ガラスが割れることがあるので、窓辺から離れる。"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "OA機器の落下に注意する。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "日頃から整理整頓を行い、職場環境を綺麗に心がける。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "避難時はエレベーターを使用しないようにする。"
     		})
+    		}).then(function() {tugi()})
+    		})
+    		})})
+
 		}
 
 		if(key == "7"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>バックや買い物かごなどで頭を保護し、ショーケースなど倒れやすいものから離れる。<br><br>ガラス製品や瀬戸物、その他、陳列棚の商品などの落下・転倒に注意する。<br><br>エレベーターによる避難はしない。"
+      		content: "対処方法は以下のとおりです。<br><br><br><br><br><br>"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "バックや買い物かごなどで頭を保護し、ショーケースなど倒れやすいものから離れる。"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "ガラス製品や瀬戸物、その他、陳列棚の商品などの落下・転倒に注意する。"
+    		}).then(function() {
+    		
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "エレベーターによる避難はしない。"
     		})
+    		}).then(function() {tugi()})
+    		})
+    		})
+
 		}
 
 		if(key == "8"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>バックなどで頭を保護し、座席の間に身を隠して、揺れが収まるのを待つ。<br><br>天井からの落下物や窓ガラス等に注意しながら、安全な場所に避難する。<br><br>停電しても誘導灯や非常灯がつくので、慌てずに、係員の指示に従う。<br><br>事前に避難口を確認しておく。"
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "バックなどで頭を保護し、座席の間に身を隠して、揺れが収まるのを待つ。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "天井からの落下物や窓ガラス等に注意しながら、安全な場所に避難する。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "停電しても誘導灯や非常灯がつくので、慌てずに、係員の指示に従う。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "事前に避難口を確認しておく。"
+    		}).then(function() {tugi()})
     		})
+    		})})})
+
 		}
 
 		if(key == "9"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>停電になっても、非常照明がつくまでむやみに動かないようにする。<br><br>地下街では６０ｍごとに非常口が設置されているため、一つの非常口に殺到せずに地上に落ち着いて脱出する。<br><br>脱出するときは、壁づたいに歩いて避難する。"
-    		})
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "停電になっても、非常照明がつくまでむやみに動かないようにする。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "地下街では６０ｍごとに非常口が設置されているため、一つの非常口に殺到せずに地上に落ち着いて脱出する。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "脱出するときは、壁づたいに歩いて避難する。"
+    		}).then(function() {tugi()})
+			})})})
+
 		}
 
 		if(key == "10"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>教室内では、机の下に潜って落下物などから身を守り、慌てて外に飛び出すなど勝手な行動はせずに、教職員の指示に従う。<br><br>廊下、運動場、体育館などでは、中央部に集まってしゃがむ。<br><br>実験室などでは、薬品や火気に注意する。<br><br>通学路が危険なこともあるので、勝手に帰宅しない。"
-    		})
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "教室内では、机の下に潜って落下物などから身を守り、慌てて外に飛び出すなど勝手な行動はせずに、教職員の指示に従う。"
+			}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "廊下、運動場、体育館などでは、中央部に集まってしゃがむ。"
+			}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "実験室などでは、薬品や火気に注意する。"
+			}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "通学路が危険なこともあるので、勝手に帰宅しない。"
+			}).then(function() {tugi()})
+			})})})})
+
 		}
 
 		if(key == "11"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>全ての階のボタンを押し、最初に停止した階でおりるのが原則！<br><br>ただし、停止した階で慌てておりるのではなく、階の状況を見極めるのも大切！<br><br>エレベーターに閉じこめられても、焦らず冷静になって「非常用呼び出しボタン」等での連絡を取る。"
-    		})
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "全ての階のボタンを押し、最初に停止した階でおりるのが原則！"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "ただし、停止した階で慌てておりるのではなく、階の状況を見極めるのも大切！"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "エレベーターに閉じこめられても、焦らず冷静になって「非常用呼び出しボタン」等での連絡を取る。"
+    		}).then(function() {tugi()})
+    		})})})
+
 		}
 
 	})
@@ -329,39 +470,151 @@ function hinan_okugai(y){
 		if(key == "1"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>住宅地の路地にあるブロック塀や石塀は、強い揺れで倒れる危険がある。揺れを感じたら塀から離れる。<br><br>電柱や自動販売機も倒れてくることがあるので、そばから離れる。<br><br>屋根瓦や二階建て以上の住宅のベランダに置かれているエアコンの室外機、ガーデニング用のプランターなどが落下してくることがある。頭の上も注意する。<br><br>強い揺れが起きると、耐震性能の低い住宅が倒壊する場合もある。これにより瓦礫や窓ガラスが道路内に散乱する可能性もあるので、揺れを感じたら周辺の状況に注意する。"
-    		})
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "住宅地の路地にあるブロック塀や石塀は、強い揺れで倒れる危険がある。揺れを感じたら塀から離れる。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "電柱や自動販売機も倒れてくることがあるので、そばから離れる。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "屋根瓦や二階建て以上の住宅のベランダに置かれているエアコンの室外機、ガーデニング用のプランターなどが落下してくることがある。頭の上も注意する。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "強い揺れが起きると、耐震性能の低い住宅が倒壊する場合もある。これにより瓦礫や窓ガラスが道路内に散乱する可能性もあるので、揺れを感じたら周辺の状況に注意する。"
+    		}).then(function() {tugi()})
+    		})})})})
+
 		}
 
 		if(key == "2"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>何はともあれ、頭上を保護する！<br><br>オフィスビルの窓ガラスが割れて落下すると、時速40～60kmで広範囲に拡散する。<br><br>ビルの外壁や張られているタイル、外壁に取り付けられている看板などが剥がれ落ちることもある。<br><br>街では、オフィス街には少ない店の看板やネオンサインなどの落下・転倒物が加わる。<br><br>鞄などで頭を保護し、できるだけ建物から離れる。"
-    		})
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "何はともあれ、頭上を保護する！"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "オフィスビルの窓ガラスが割れて落下すると、時速40～60kmで広範囲に拡散する。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "ビルの外壁や張られているタイル、外壁に取り付けられている看板などが剥がれ落ちることもある。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "街では、オフィス街には少ない店の看板やネオンサインなどの落下・転倒物が加わる。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "鞄などで頭を保護し、できるだけ建物から離れる。"
+    		}).then(function() {tugi()})
+    		})})})})})
+
+
 		}
 
 		if(key == "3"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br> 一番恐ろしいのは津波。とにかく高い所に避難する！<br><br>津波は繰り返し襲って来て、第一波の後にさらに高い波が来ることもある。いったん波が引いても絶対に戻ってはいけない。<br><br>避難標識が整備されている場合には避難する際の目安になる。<br><br>水浴中の場合は、監視員やライフセーバーがいる海水浴場では指示に従って避難する。<br><br>警報などが出ていないか、正しい情報を入手する。<br><br>→ <a href='http://www.jma.go.jp/jp/tsunami/index.html' target='_blank'>津波の防災情報</a>"
-    		})
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "一番恐ろしいのは津波。とにかく高い所に避難する！"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "津波は繰り返し襲って来て、第一波の後にさらに高い波が来ることもある。いったん波が引いても絶対に戻ってはいけない。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "避難標識が整備されている場合には避難する際の目安になる。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "水浴中の場合は、監視員やライフセーバーがいる海水浴場では指示に従って避難する。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "警報などが出ていないか、正しい情報を入手する。"
+    		}).then(function() {tugi()})
+    		})})})})})
+
 		}
 
 		if(key == "4"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br> 津波は水を湛えている川を遡る！<br><br>流れに沿って上流側へ避難しても津波は追いかけてくる。<br><br>流れに対して直角方向に素早く避難する。"
-    		})
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "津波は水を湛えている川を遡る！"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "流れに沿って上流側へ避難しても津波は追いかけてくる。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "流れに対して直角方向に素早く避難する。"
+    		}).then(function() {tugi()})
+    		})})})
+
+
 		}
 
 		if(key == "5"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br> 落石に注意し、急傾斜地など危険な場所から遠ざかる！<br><br>登山やハイキングで山にいる時に強い揺れに襲われた場合には、まず落石から身を守る。<br><br>地震で地盤がゆるみ、崩れやすくなっている可能性があるため、崖や急傾斜地など危険な場所には近づかない。"
-    		})
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "落石に注意し、急傾斜地など危険な場所から遠ざかる！"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "登山やハイキングで山にいる時に強い揺れに襲われた場合には、まず落石から身を守る。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "地震で地盤がゆるみ、崩れやすくなっている可能性があるため、崖や急傾斜地など危険な場所には近づかない。"
+    		}).then(function() {tugi()})
+    		})})})
+
 		}
 	
-	}).then(function(){tugi()});
+	})
 
   });
 
@@ -390,41 +643,156 @@ function hinan_norimono(y){
 		if(key == "1"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>揺れを感じたら<br>①急ブレーキは禁物！ハンドルをしっかり握り、前後の車に注意しながら徐々にスピードを落とし、道路の左側に停車する。<br><br>②エンジンを切り、揺れがおさまるまでは車外に出ず、カーラジオやスマートフォンから情報を入手する。<br><br>③避難の必要がある場合は、車のキーはつけたままにし、ドアをロックしないで、窓を閉める。<br><br>④連絡先を見えるところに書き、車検証などの貴重品を持ち、徒歩で避難する。<br><br>車での避難は、緊急自動車などの妨げになる。<br><br>高速道路では、普通の道路を走行中の対処に加え、以下の点にも留意する。<br><br>①高速走行しているのでハザードランプを点灯させ、前後の車に注意を喚起する。<br><br>②高速道路では約１ｋｍごとに非常口を設けているので、徒歩で地上に脱出することができる。"
-    		})
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "急ブレーキは禁物！ハンドルをしっかり握り、前後の車に注意しながら徐々にスピードを落とし、道路の左側に停車する。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "エンジンを切り、揺れがおさまるまでは車外に出ず、カーラジオやスマートフォンから情報を入手する。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "避難の必要がある場合は、車のキーはつけたままにし、ドアをロックしないで、窓を閉める。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "連絡先を見えるところに書き、車検証などの貴重品を持ち、徒歩で避難する。車での避難は、緊急自動車などの妨げになる。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "高速道路では、普通の道路を走行中の対処に加え、以下の点にも留意する。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "①高速走行しているのでハザードランプを点灯させ、前後の車に注意を喚起する。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "②高速道路では約１ｋｍごとに非常口を設けているので、徒歩で地上に脱出することができる。"
+    		}).then(function() {tugi()})
+    		})})})})})})})
+
 		}
 
 		if(key == "2"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>強い揺れを感知すると電車は緊急停車する！<br><br>座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>停車後は、乗務員の指示に従う。"
-    		})
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "強い揺れを感知すると電車は緊急停車する！"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "停車後は、乗務員の指示に従う。"
+    		}).then(function() {tugi()})
+    		})})})
+
 		}
 
 		if(key == "3"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>新幹線は早期地震検知警戒システム（ユレダス）が作動して緊急停車する！<br><br>高速走行しているので、座席に座っている場合には、前に飛び出さないように座席の間に体を隠し、立っている場合には手すりをしっかり握って転倒しないようにする。<br><br>停車後は、乗務員の指示に従う。"
-    		})
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "新幹線は早期地震検知警戒システム（ユレダス）が作動して緊急停車する！"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "高速走行しているので、座席に座っている場合には、前に飛び出さないように座席の間に体を隠し、立っている場合には手すりをしっかり握って転倒しないようにする。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "停車後は、乗務員の指示に従う。"
+    		}).then(function() {tugi()})
+    		})})})
+
 		}
 
 		if(key == "4"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>震度５弱程度の揺れを観測した場合に運転を停止し、線路途中なら安全を確認し、低速で最寄りの駅に向かう！<br><br>座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>停電になっても非常灯が1時間程度は点灯するので、慌てずに行動する。<br><br>地下鉄によっては高圧電線が線路脇に設置されているので、勝手に線路に飛び降りると危険！<br><br>停車後は、乗務員の指示に従う。"
-    		})
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "震度５弱程度の揺れを観測した場合に運転を停止し、線路途中なら安全を確認し、低速で最寄りの駅に向かう！"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "停電になっても非常灯が1時間程度は点灯するので、慌てずに行動する。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "地下鉄によっては高圧電線が線路脇に設置されているので、勝手に線路に飛び降りると危険！"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "停車後は、乗務員の指示に従う。"
+    		}).then(function() {tugi()})
+    		})})})})})
+
+
 		}
 
 		if(key == "5"){
 			eyeui.message.bot({
 	  		delay: 1000,
-      		content: "対処方法は以下のとおりです。<br><br>強い揺れを感じた場合に、危険を回避するために急ブレーキが踏まれることがある！<br><br>座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>停車後は、乗務員の指示に従う。"
-    		})
+      		content: "対処方法は以下のとおりです。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "強い揺れを感じた場合に、危険を回避するために急ブレーキが踏まれることがある！"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。"
+    		}).then(function() {
+
+			eyeui.message.bot({
+	  		delay: 1000,
+      		content: "停車後は、乗務員の指示に従う。"
+    		}).then(function() {tugi()})
+    		})})})
+
 		}
 
-
 	
-	}).then(function(){tugi()});
+	})
 
   });
 
@@ -456,7 +824,6 @@ eyeui.message.bot({
 
 
 }
-
 
 
 	function GPS(){
