@@ -41,8 +41,10 @@ function discovery(x){
 
 	if(x == "1"){
 	eyeui.message.bot({
-		delay: 1000,
-      	content: "ここから調べられます。<br><br><a href='https://linkevery2s.github.io/bseyes/hinan.html' target='_blank'>避難マップ</a>"
+	  	delay: 1000,
+      	content: "避難場所を表示します。"
+    }).then(function() {
+		setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/hinan.html"; }, 1000);
 	});
     }else if(x == "2"){
 		eyeui.message.bot({
@@ -54,7 +56,9 @@ function discovery(x){
     }else if(x == "3"){
 		eyeui.message.bot({
 	  	delay: 1000,
-      	content: "ここから見てみましょう！<br><br><a href='https://linkevery2s.github.io/bseyes/hazard.html' target='_blank'>ハザードマップ</a>"
+      	content: "ハザードマップを表示します。"
+    }).then(function() {
+		setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/hazard.html"; }, 1000);
 	});
     }else if(x == "4"){
 		eyeui.message.bot({
