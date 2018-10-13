@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>避難サイクル</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700&subset=latin,cyrillic-ext" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/photostack/photostack.css" rel="stylesheet">
+  <link href="lib/fullpage-menu/fullpage-menu.css" rel="stylesheet">
+  <link href="lib/cubeportfolio/cubeportfolio.css" rel="stylesheet">
+  <link href="lib/superslides/superslides.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Template Name: Polaroyd
+    Template URL: https://templatemag.com/polaroyd-bootstrap-agency-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
+
+	<script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj00aiZpPXA5aTVaV1hEb3Q1eSZzPWNvbnN1bWVyc2VjcmV0Jng9N2Y-"></script>
+
+	<script type="text/javascript">
+		var ymap;
+
+    		function yyy() {
+
+    			ymap = new Y.Map("map", {
+    			configure : {
+        			doubleClickZoom : true,
+        			scrollWheelZoom : true,
+        			weatherOverlay: true
+    			}
+			});
+	
+    			//天気レイヤ作成
+    			var weather = new Y.WeatherMapLayer({
+       				 "opacity": 0.6,
+   				 });
+    
+    			//天気レイヤを重ねる地図レイヤを作成
+    			var maplayer = new Y.NormalLayer();
+    			//地図 + 天気レイヤを追加
+    			ymap.addLayerSet("weather", new Y.LayerSet("地図+天気", [maplayer, weather]));
+
+    			ymap.addControl(new Y.SliderZoomControlVertical());
+    			//地図を描画
+    			ymap.drawMap(new Y.LatLng(35.6,139.7), 6, "weather");
+    			//天気データを更新
+    			weather.UpdateWeather();
+
+			}
+
+	</script>
+
+</head>
+
+<body onload="yyy()">
+
+  <!-- Custom navbar -->
+  <div class="custom-navbar"><a class="fm-button" href="#">Menu</a></div>
+  <div class="sidemenu">
+    <ul class="fm-first-level">
+    <nav id="menu1" class="active">
+      <a href="index.html">
+		    <span class="subtitle">Home.</span>
+		    ホーム
+		  </a>
+      <a href="about.html">
+		    <span class="subtitle">About This Service.</span>
+		    このサービスについて
+		  </a>
+      <a href="hinan.html">
+		    <span class="subtitle">Refuge Map.</span>
+		    避難マップ
+		  </a>
+      <a href="ame.html">
+		    <span class="subtitle">Weather Infomation.</span>
+		    気象情報
+		  </a>
+<a href="hazard.html">
+		    <span class="subtitle">Hazard Map.</span>
+		    ハザードマップ
+	 	  </a>
+      <a href="where.html">
+		    <span class="subtitle">Where Am I?</span>
+		    今どこ？
+		  </a>
+      <a href="cycle.html">
+		    <span class="subtitle">Cycle.</span>
+		    避難サイクル
+	      </a>
+      <a href="report.html">
+		    <span class="subtitle">Analitics Report.</span>
+		    レポート
+	      </a>
+    </nav>
+    </ul>
+  </div>
+  <!-- /END CUSTOM NAVBAR -->
+
+	<div class="ai-eye"><a href="ai/eye.html"><i class="fa fa-microphone fa-2x"></i></a></div>
+	<div class="top_back"><a href="#"><i class="fa fa-angle-up fa-2x"></i></a></div>
+
+
+
+  <div class="container">
+    <div class="row mt3 presentation">
+      <div class="centered">
+        <i class="icon ion-ios7-cloud-outline large-icon"></i>
+        <h1>避難サイクル</h1>
+        <hr>
+      </div>
+
+      <div class="col-lg-4 col-md-4">
+        <h3>災害が起きる前</h3>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <p>台風、ゲリラ豪雨、雷雨が発生した時、雨雲の情報は必ず必要になります。雨雲の状態を把握し、次の行動を考えることは重要です。雨雲レーダーでは、大気の状態を知ることができます。</p>
+
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <p>また、雨雲レーダーと合わせて、気象庁から発表される注意報・警報も確認し、災害に備えましょう。
+        </p>
+      </div>
+
+<hr>
+
+      <div class="col-lg-4 col-md-4">
+        <h3>避難する時</h3>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <p>台風、ゲリラ豪雨、雷雨が発生した時、雨雲の情報は必ず必要になります。雨雲の状態を把握し、次の行動を考えることは重要です。雨雲レーダーでは、大気の状態を知ることができます。</p>
+
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <p>また、雨雲レーダーと合わせて、気象庁から発表される注意報・警報も確認し、災害に備えましょう。
+        </p>
+      </div>
+
+<hr>
+      <div class="col-lg-4 col-md-4">
+        <h3>帰宅後</h3>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <p>台風、ゲリラ豪雨、雷雨が発生した時、雨雲の情報は必ず必要になります。雨雲の状態を把握し、次の行動を考えることは重要です。雨雲レーダーでは、大気の状態を知ることができます。</p>
+
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <p>また、雨雲レーダーと合わせて、気象庁から発表される注意報・警報も確認し、災害に備えましょう。
+        </p>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <section id="end" class="section-footer">
+    <div class="container centered ptb">
+      <div class="col-md-6 col-md-offset-3">
+        Copyright &copy; - <strong>hitoshi</strong> All rights reserved.
+        <div class="credits">
+          <!--
+            You are NOT allowed to delete the credit link to TemplateMag with free version.
+            You can delete the credit link only if you bought the pro version.
+            Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/polaroyd-bootstrap-agency-template/
+            Licensing information: https://templatemag.com/license/
+          -->
+          Created with Polaroyd template by <a href="https://templatemag.com/">TemplateMag</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/modernizr/modernizr.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/cubeportfolio/cubeportfolio.js"></script>
+  <script src="lib/classie/classie.js"></script>
+  <script src="lib/fullpage-menu/fullpage-menu.js"></script>
+  <script src="lib/photostack/photostack.js"></script>
+  <script src="lib/superslides/superslides.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
