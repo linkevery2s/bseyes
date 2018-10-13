@@ -7,7 +7,7 @@ var todou ;var ido; var keido; var hash;
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-  		hash = new L.Hash(map)
+  		hash = new L.Hash(map);
 
 	}
 
