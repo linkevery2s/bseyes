@@ -22,7 +22,7 @@
 			{text: "雨雲の様子は？", value: "2"},
 			{text: "ハザードマップを見たい", value: "3"},
 			{text: "ここどこ？", value: "4"},
-			{text: "避難方法を知りたい", value: "5"},
+			{text: "地震時の避難方法を知りたい", value: "5"},
 			{text: "救急です。", value: "6"}
 		]
 	}).then(function(res){
