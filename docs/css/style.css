@@ -20,7 +20,7 @@ body {
 	margin: 0;
 	height: 100%;
 	z-index: 1000;
-	color: #696E74;
+	color: #222222;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,7 +35,7 @@ p {
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 24px;
-	color: #808080;
+	color: #222222;
 	margin-top: 10px;
 }
 
@@ -97,13 +97,13 @@ a {
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
-	color:#696E74;
+	color:#222222;
 word-break: break-all;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color:#696E74;
+  color:#222222;
 }
 a img {
 	border: none;
