@@ -9,10 +9,16 @@ var todou ;var ido; var keido;var hash;
   		}).addTo(map);
   		hash = new L.Hash(map);
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		var back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 		todou = L.geoJson(k, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
 	}
+
+function rn(){
+		location.href = "../hinan.html#hinan_map";
+}
+
 
     function aichi_ini() {
     	start();map.setView([35.002, 137.200], 8);

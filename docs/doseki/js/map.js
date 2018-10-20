@@ -1,5 +1,5 @@
 //version 5.
-var map;var p;var zoom;var marker; var markers = []; var gps_button; var hinanj;var marker1;
+var map;var p;var zoom;var marker; var markers = []; var gps_button; var hinanj;var marker11;
 var todou ;var ido; var keido; var hash;
 
 	function start(){
@@ -8,7 +8,42 @@ var todou ;var ido; var keido; var hash;
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
   		hash = new L.Hash(map);
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		var back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
+	}
+
+function rn(){
+		location.href = "../hazard.html#doseki_map";
+}
+
+	function GPS(){
+		if (navigator.geolocation) {
+       	navigator.geolocation.getCurrentPosition(gps_get,gps_error);
+     	} else {
+       	alert("エラーが発生したので、現在地を取得できませんでした。");
+     	}
+	}
+
+	function gps_get(position) {
+
+    //成功したら…
+    ido = position.coords.latitude;
+    keido = position.coords.longitude;
+    //位置情報取得後、地図表示
+   		map.setView([ido, keido], 17);
+	//marker = L.marker([ido, keido]);
+	//map.addLayer(marker);
+	//var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
+	
+	L.marker([ido, keido]).addTo(map);
+
+	
+	}
+
+	function gps_error(error) {
+   		//失敗したら…
+       alert("エラーが発生したので、現在地を取得できませんでした。");
 	}
 
     function aichi_ini() {
