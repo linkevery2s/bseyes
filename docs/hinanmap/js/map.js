@@ -21,191 +21,191 @@ function rn(){
 
 
     function aichi_ini() {
-    	start();map.setView([35.002, 137.200], 8);
+    	start();//map.setView([35.002, 137.200], 8);
 	}
 
     function hokkaido_ini() {
-		start();map.setView([43.469, 141.987], 8);
+		start();//map.setView([43.469, 141.987], 8);
 	}
 
     function aomori_ini() {
-		start();map.setView([40.651, 140.724], 8);
+		start();//map.setView([40.651, 140.724], 8);
 	}
 
     function iwate_ini() {
-		start();map.setView([39.686, 141.224], 8);
+		start();//map.setView([39.686, 141.224], 8);
 	}
 
     function akita_ini() {
-		start();map.setView([39.529, 140.389], 8);
+		start();//map.setView([39.529, 140.389], 8);
 	}
 
     function miyagi_ini() {
-		start();map.setView([38.505, 140.707], 8);
+		start();//map.setView([38.505, 140.707], 8);
 	}
 
     function yamagata_ini() {
-		start();map.setView([38.428, 140.026], 8);
+		start();//map.setView([38.428, 140.026], 8);
 	}
 
     function fukushima_ini() {
-		start();map.setView([37.392, 139.883], 8);
+		start();//map.setView([37.392, 139.883], 8);
 	}
 
     function nigata_ini() {
-		start();map.setView([37.375, 138.735], 8);
+		start();//map.setView([37.375, 138.735], 8);
 	}
 
     function tochigi_ini() {
-		start();map.setView([36.673, 139.653], 8);
+		start();//map.setView([36.673, 139.653], 8);
 	}
 
     function gunma_ini() {
-		start();map.setView([36.461, 138.950], 8);
+		start();//map.setView([36.461, 138.950], 8);
 	}
 
     function ibaragi_ini() {
-		start();map.setView([36.271, 140.235], 8);
+		start();//map.setView([36.271, 140.235], 8);
 	}
 
     function tiba_ini() {
-		start();map.setView([35.488, 139.966], 8);
+		start();//map.setView([35.488, 139.966], 8);
 	}
 
     function saitama_ini() {
-		start();map.setView([35.929, 139.147], 8);
+		start();//map.setView([35.929, 139.147], 8);
 	}
 
     function tokyo_ini() {
-		start();map.setView([35.595, 139.592], 8);
+		start();//map.setView([35.595, 139.592], 8);
 	}
 
     function kanagawa_ini() {
-		start();map.setView([35.3980, 139.3314], 8);
+		start();//map.setView([35.398, 139.331], 8);
 	}
 
     function yamanashi_ini() {
-		start();map.setView([35.532, 138.565], 8);
+		start();//map.setView([35.532, 138.565], 8);
 	}
 
     function nagano_ini() {
-		start();map.setView([35.960, 137.928], 8);
+		start();//map.setView([35.960, 137.928], 8);
 	}
 
     function shizuoka_ini() {
-		start();map.setView([35.012, 138.214], 8);
+		start();//map.setView([35.012, 138.214], 8);
 	}
 
     function gifu_ini() {
-		start();map.setView([35.724, 136.890], 8);
+		start();//map.setView([35.724, 136.890], 8);
 	}
 
     function toyama_ini() {
-		start();map.setView([36.624, 137.016], 8);
+		start();//map.setView([36.624, 137.016], 8);
 	}
 
     function ishikawa_ini() {
-		start();map.setView([36.844, 136.785], 8);
+		start();//map.setView([36.844, 136.785], 8);
 	}
 
     function fukui_ini() {
-		start();map.setView([35.898, 136.192], 8);
+		start();//map.setView([35.898, 136.192], 8);
 	}
 
     function shiga_ini() {
-		start();map.setView([35.255, 135.950], 8);
+		start();//map.setView([35.255, 135.950], 8);
 	}
 
     function mie_ini() {
-		start();map.setView([34.606, 136.225], 8);
+		start();//map.setView([34.606, 136.225], 8);
 	}
 
     function kyoto_ini() {
-		start();map.setView([35.156, 135.368], 8);
+		start();//map.setView([35.156, 135.368], 8);
 	}
 
     function osaka_ini() {
-		start();map.setView([34.692, 135.511], 8);
+		start();//map.setView([34.692, 135.511], 8);
 	}
 
     function nara_ini() {
-		start();map.setView([34.207, 135.818], 8);
+		start();//map.setView([34.207, 135.818], 8);
 	}
 
     function wakayama_ini() {
-		start();map.setView([33.975, 135.368], 8);
+		start();//map.setView([33.975, 135.368], 8);
 	}
 
     function hyogo_ini() {
-		start();map.setView([35.043, 134.484], 8);
+		start();//map.setView([35.043, 134.484], 8);
 	}
 
     function tottori_ini() {
-		start();map.setView([35.313, 133.786], 8);
+		start();//map.setView([35.313, 133.786], 8);
 	}
 
     function okayama_ini() {
-		start();map.setView([34.940, 133.550], 8);
+		start();//map.setView([34.940, 133.550], 8);
 	}
 
     function shimane_ini() {
-		start();map.setView([34.854, 132.347], 8);
+		start();//map.setView([34.854, 132.347], 8);
 	}
 
     function hiroshima_ini() {
-		start();map.setView([34.556, 132.512], 8);
+		start();//map.setView([34.556, 132.512], 8);
 	}
 
     function yamaguchi_ini() {
-		start();map.setView([34.207, 131.550], 8);
+		start();//map.setView([34.207, 131.550], 8);
 	}
 
     function kagawa_ini() {
-		start();map.setView([34.057, 133.726], 8);
+		start();//map.setView([34.057, 133.726], 8);
 	}
 
     function tokushima_ini() {
-		start();map.setView([33.852, 133.923], 8);
+		start();//map.setView([33.852, 133.923], 8);
 	}
 
     function ehime_ini() {
-		start();map.setView([33.679, 132.764], 8);
+		start();//map.setView([33.679, 132.764], 8);
 	}
 
     function kochi_ini() {
-		start();map.setView([33.390, 133.259], 8);
+		start();//map.setView([33.390, 133.259], 8);
 	}
 
     function fukuoka_ini() {
-		start();map.setView([33.431, 130.583], 8);
+		start();//map.setView([33.431, 130.583], 8);
 	}
 
     function saga_ini() {
-		start();map.setView([33.170, 130.073], 8);
+		start();//map.setView([33.170, 130.073], 8);
 	}
 
 	function oita_ini() {
-		start();map.setView([33.128, 131.083], 8);
+		start();//map.setView([33.128, 131.083], 8);
 	}
 
     function nagasaki_ini() {
-		start();map.setView([32.875, 129.661], 8);
+		start();//map.setView([32.875, 129.661], 8);
 	}
 
     function kumamoto_ini() {
-		start();map.setView([32.426, 130.759], 8);
+		start();//map.setView([32.426, 130.759], 8);
 	}
 
     function miyazaki_ini() {
-		start();map.setView([32.213, 131.188], 8);
+		start();//map.setView([32.213, 131.188], 8);
 	}
 
     function kagoshima_ini() {
-		start();map.setView([31.541, 130.715], 8);
+		start();//map.setView([31.541, 130.715], 8);
 	}
 
     function okinawa_ini() {
-		start();map.setView([26.436, 127.996], 8);
+		start();//map.setView([26.436, 127.996], 8);
 	}
 
 	function GPS(){
