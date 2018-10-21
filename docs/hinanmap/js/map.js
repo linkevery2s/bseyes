@@ -310,10 +310,20 @@ function line(){
 
 function tw(){
 	var url = location.href;
-	location.href = "https://twitter.com/share?url=" + url;
+
+	var para = location.hash;
+	var par = para.split("/");
+	zoom = map.getZoom();
+
+	location.href = "https://twitter.com/share?url=" + url + "%23" + zoom + "/" + par[1] + "/" +par[2];
 }
 
 function fb(){
 	var url = location.href;
-	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
+
+	var para = location.hash;
+	var par = para.split("/");
+	zoom = map.getZoom();
+
+	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url + "%23" + zoom + "/" + par[1] + "/" +par[2];
 }
