@@ -295,3 +295,25 @@ function rn(){
     layer.bindPopup(popup);
 	}
 
+function mail(){
+
+	var url = location.href;
+	location.href =  "mailto:?body=" + url;
+
+}
+
+function line(){
+	var url = location.href;
+	location.href = "line://msg/text/"+ url;
+
+}
+
+function tw(){
+	var url = location.href;
+	location.href = "https://twitter.com/share?url=" + url;
+}
+
+function fb(){
+	var url = location.href;
+	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
+}
