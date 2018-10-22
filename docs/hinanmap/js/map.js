@@ -311,14 +311,18 @@ function line(){
 function tw(){
 	var url = location.href;
 
-url = encodeURI(url);
+    var para = location.hash;
+	var par = para.split("/");
+	var zoo = map.getZoom();
 
-	location.href = "https://twitter.com/share?url=" + url;
+	location.href = "https://twitter.com/share?url=" + url + "%23" + zoo + "/" + par[1] + "/" +par[2];
 }
 
 function fb(){
 	var url = location.href;
-url = encodeURI(url);
+var para = location.hash;
+	var par = para.split("/");
+	var zoo = map.getZoom();
 
-	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
+	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url + "%23" + zoo + "/" + par[1] + "/" +par[2];
 }
