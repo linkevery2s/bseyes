@@ -309,7 +309,7 @@ function line(){
 }
 
 function tw(){
-	var url = location.href;
+	var url = location.search;
 
     var para = location.hash;
 	var par = para.split("/");
@@ -319,7 +319,7 @@ function tw(){
 }
 
 function fb(){
-	var url = location.href;
+	var url = location.search;
 var para = location.hash;
 	var par = para.split("/");
 	var zoo = map.getZoom();
