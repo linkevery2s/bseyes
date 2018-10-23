@@ -309,20 +309,20 @@ function line(){
 }
 
 function tw(){
-	var url = location.search;
+	var url = location.pathname;
 
     var para = location.hash;
 	var par = para.split("/");
 	var zoo = map.getZoom();
 
-	location.href = "https://twitter.com/share?url=" + url + "%23" + zoo + "/" + par[1] + "/" +par[2];
+	location.href = "https://twitter.com/share?url=" + "https://linkevery2s.github.io/bseyes" + url + "%23" + zoo + "/" + par[1] + "/" +par[2];
 }
 
 function fb(){
-	var url = location.search;
+	var url = location.pathname;
 var para = location.hash;
 	var par = para.split("/");
 	var zoo = map.getZoom();
 
-	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url + "%23" + zoo + "/" + par[1] + "/" +par[2];
+	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + "https://linkevery2s.github.io/bseyes" + url + "%23" + zoo + "/" + par[1] + "/" +par[2];
 }
