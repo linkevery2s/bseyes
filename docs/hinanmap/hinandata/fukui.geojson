@@ -1,4 +1,4 @@
-﻿var fukui={"type":"FeatureCollection","name":"fukui","features":[
+﻿var k={"type":"FeatureCollection","name":"fukui","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.220065449,36.0601126588]},"properties":{"Name":"柴田公園","Jusho":"福井県福井市中央1丁目21","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.213779,36.064895]},"properties":{"Name":"錦公園","Jusho":"福井県福井市順化2丁目11","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.21934087838,36.067897006048]},"properties":{"Name":"神明公園","Jusho":"福井県福井市宝永4丁目8","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}

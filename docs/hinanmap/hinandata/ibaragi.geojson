@@ -1,4 +1,4 @@
-﻿var ibaragi={"type":"FeatureCollection","name":"ibaragi","features":[
+﻿var k={"type":"FeatureCollection","name":"ibaragi","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.55725879147,36.345010544543]},"properties":{"Name":"茨城県立水戸高等特別支援学校","Jusho":"茨城県水戸市下大野町６２１２","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.55809293303,36.344657238665]},"properties":{"Name":"茨城県立産業技術短期大学校","Jusho":"茨城県水戸市下大野町６３４２","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.55859690499,36.340926217072]},"properties":{"Name":"鹿島臨海鉄道常澄駅ホーム","Jusho":"茨城県水戸市塩崎町３３００−２","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}

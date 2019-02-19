@@ -1,4 +1,4 @@
-﻿var nigata={"type":"FeatureCollection","name":"nigata","features":[
+﻿var k={"type":"FeatureCollection","name":"nigata","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.217162020367,37.9077982457619]},"properties":{"Name":"葛塚小学校","Jusho":"新潟県新潟市北区川西３丁目９番24号","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.216203707441,37.9079444956218]},"properties":{"Name":"豊栄武道館","Jusho":"新潟県新潟市北区川西３丁目5202番地３","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.218781254059,37.9044230385475]},"properties":{"Name":"光晴中学校","Jusho":"新潟県新潟市北区上土地亀4981番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}

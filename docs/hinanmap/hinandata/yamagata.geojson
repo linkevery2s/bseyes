@@ -1,4 +1,4 @@
-﻿var yamagata={"type":"FeatureCollection","name":"yamagata","features":[
+﻿var k={"type":"FeatureCollection","name":"yamagata","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.36087371432,38.265205872405]},"properties":{"Name":"鈴川コミュニティセンター","Jusho":"山形県山形市山家町2-4-48","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"○"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.34383000659,38.287463719204]},"properties":{"Name":"千歳コミュニティセンター","Jusho":"山形県山形市落合町1087-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"○"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.29422862475,38.255902198352]},"properties":{"Name":"飯塚コミュニティセンター","Jusho":"山形県山形市横道7","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"○"}}

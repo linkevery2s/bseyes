@@ -1,4 +1,4 @@
-﻿var fukushima={"type":"FeatureCollection","name":"fukushima","features":[
+﻿var k={"type":"FeatureCollection","name":"fukushima","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.4668291,37.75140468]},"properties":{"Name":"福島第一小学校 屋外運動場","Jusho":"福島県福島市杉妻町１−２４","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.4734156,37.75883394]},"properties":{"Name":"福島第二小学校 屋外運動場","Jusho":"福島県福島市浜田町２−１","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.4786741,37.76145704]},"properties":{"Name":"福島第二中学校","Jusho":"福島県福島市桜木町５−２０","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}}

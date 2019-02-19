@@ -1,4 +1,4 @@
-﻿var kagawa={"type":"FeatureCollection","name":"kagawa","features":[
+﻿var k={"type":"FeatureCollection","name":"kagawa","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[134.0298057,34.34718117]},"properties":{"Name":"日新小学校跡施設","Jusho":"香川県高松市瀬戸内町１８-２","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.0409621,34.34586918]},"properties":{"Name":"新番丁小学校","Jusho":"香川県高松市錦町２-１４-１","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.0470236,34.34335033]},"properties":{"Name":"四番丁小学校跡施設","Jusho":"香川県高松市番町１-５-１","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}}

@@ -1,4 +1,4 @@
-﻿var oita={"type":"FeatureCollection","name":"oita","features":[
+﻿var k={"type":"FeatureCollection","name":"oita","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[131.613352,33.233965]},"properties":{"Name":"金池小学校","Jusho":"大分県大分市金池町３丁目１番９０号","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"○"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.612649,33.228724]},"properties":{"Name":"上野ヶ丘中学校","Jusho":"大分県大分市上野町４番５号","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"○"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.611995,33.22158]},"properties":{"Name":"大分上野丘高等学校","Jusho":"大分県大分市上野ヶ丘２丁目１０番１号","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"○"}}

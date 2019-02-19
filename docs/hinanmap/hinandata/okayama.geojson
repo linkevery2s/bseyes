@@ -1,4 +1,4 @@
-﻿var okayama={"type":"FeatureCollection","name":"okayama","features":[
+﻿var k={"type":"FeatureCollection","name":"okayama","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[133.801557222222,34.7303463888889]},"properties":{"Name":"足守小学校","Jusho":"岡山県岡山市北区足守789","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.799125555556,34.7431452777778]},"properties":{"Name":"蛍明小学校、足守中学校","Jusho":"岡山県岡山市北区大井360","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.911750277778,34.6666586111111]},"properties":{"Name":"石井小学校","Jusho":"岡山県岡山市北区寿町2-8","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}

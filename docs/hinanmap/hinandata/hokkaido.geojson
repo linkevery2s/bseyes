@@ -1,4 +1,4 @@
-﻿var hokkaido={"type":"FeatureCollection","name":"hokkaido","features":[
+﻿var k={"type":"FeatureCollection","name":"hokkaido","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[141.32813013094,43.067886261126]},"properties":{"Name":"桑園小学校","Jusho":"北海道札幌市中央区北８条西１７丁目１","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.31752647931,43.066850571871]},"properties":{"Name":"日新小学校","Jusho":"北海道札幌市中央区北８条西２５丁目２−１","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.35968558022,43.067695546978]},"properties":{"Name":"中央中学校","Jusho":"北海道札幌市中央区北４条東３丁目","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}

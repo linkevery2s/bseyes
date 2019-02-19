@@ -1,4 +1,4 @@
-﻿var kumamoto={"type":"FeatureCollection","name":"kumamoto","features":[
+﻿var k={"type":"FeatureCollection","name":"kumamoto","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[130.731203,32.789046]},"properties":{"Name":"出水小学校　","Jusho":"熊本県熊本市中央区出水1丁目1-75","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.728165,32.787735]},"properties":{"Name":"熊本国府高校","Jusho":"熊本県熊本市中央区国府2丁目15-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7306183,32.783234]},"properties":{"Name":"出水南小学校","Jusho":"熊本県熊本市中央区出水4丁目1-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}}

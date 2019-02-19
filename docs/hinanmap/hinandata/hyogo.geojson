@@ -1,4 +1,4 @@
-﻿var hyogo={"type":"FeatureCollection","name":"hyogo","features":[
+﻿var k={"type":"FeatureCollection","name":"hyogo","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.2944292,34.7248161]},"properties":{"Name":"東灘小学校","Jusho":"兵庫県神戸市東灘区深江北町2-4-1","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.2888714,34.7211525]},"properties":{"Name":"本庄小学校","Jusho":"兵庫県神戸市東灘区青木4-4-1","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.2875439,34.7203025]},"properties":{"Name":"本庄中学校","Jusho":"兵庫県神戸市東灘区青木4-4-2","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}

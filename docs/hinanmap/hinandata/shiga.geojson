@@ -1,4 +1,4 @@
-﻿var shiga={"type":"FeatureCollection","name":"shiga","features":[
+﻿var k={"type":"FeatureCollection","name":"shiga","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.97376636829,35.254980250597]},"properties":{"Name":"小松市民センター","Jusho":"滋賀県大津市北小松565","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.95681242713,35.235554127832]},"properties":{"Name":"小松小学校体育館","Jusho":"滋賀県大津市南小松1122","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.95659248599,35.236288040358]},"properties":{"Name":"小松小学校グラウンド","Jusho":"滋賀県大津市南小松1122","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}

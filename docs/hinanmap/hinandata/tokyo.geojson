@@ -1,4 +1,4 @@
-﻿var tokyo={"type":"FeatureCollection","name":"tokyo","features":[
+﻿var k={"type":"FeatureCollection","name":"tokyo","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.77132890862,35.676572613649]},"properties":{"Name":"京橋区民館","Jusho":"東京都中央区京橋２-６-７","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.77164071164,35.673184063993]},"properties":{"Name":"京橋プラザ","Jusho":"東京都中央区銀座１-２５-３","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.76145785516,35.67225296963]},"properties":{"Name":"泰明小学校","Jusho":"東京都中央区銀座５-１-１３","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}

@@ -1,4 +1,4 @@
-﻿var ishikawa={"type":"FeatureCollection","name":"ishikawa","features":[
+﻿var k={"type":"FeatureCollection","name":"ishikawa","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.6481028,36.55282538]},"properties":{"Name":"旧金沢市立野町小学校","Jusho":"石川県金沢市野町3丁目11番1号","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.638876,36.554056]},"properties":{"Name":"石川県立金沢中央高等学校","Jusho":"石川県金沢市泉本町6丁目105番地","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.647406,36.553143]},"properties":{"Name":"金沢市野町公民館","Jusho":"石川県金沢市野町3丁目1番15号","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}

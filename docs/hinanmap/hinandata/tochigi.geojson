@@ -1,4 +1,4 @@
-﻿var tochigi={"type":"FeatureCollection","name":"tochigi","features":[
+﻿var k={"type":"FeatureCollection","name":"tochigi","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.884772257311,36.5592596611549]},"properties":{"Name":"中央小学校","Jusho":"栃木県宇都宮市中央本町１-29","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.891120115193,36.5652138151477]},"properties":{"Name":"東小学校","Jusho":"栃木県宇都宮市東塙田１-6-14","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.878273164791,36.5597041510134]},"properties":{"Name":"西小学校","Jusho":"栃木県宇都宮市西1-2-13","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}

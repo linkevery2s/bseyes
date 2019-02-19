@@ -1,4 +1,4 @@
-﻿var kanagawa={"type":"FeatureCollection","name":"kanagawa","features":[
+﻿var k={"type":"FeatureCollection","name":"kanagawa","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.623766,35.44326]},"properties":{"Name":"横浜市立東小学校　校舎１","Jusho":"神奈川県横浜市西区東ケ丘59","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.62383,35.443679]},"properties":{"Name":"横浜市立東小学校　体育館","Jusho":"神奈川県横浜市西区東ケ丘59","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.612428,35.448819]},"properties":{"Name":"横浜市立稲荷台小学校　校舎７","Jusho":"神奈川県横浜市西区藤棚町2-220","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}

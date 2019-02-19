@@ -1,4 +1,4 @@
-﻿var aichi={"type":"FeatureCollection","name":"aichi","features":[
+﻿var k={"type":"FeatureCollection","name":"aichi","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.93417373,35.16278657]},"properties":{"Name":"千種小学校","Jusho":"愛知県名古屋市千種区千種3-2-5","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.93261137,35.16577856]},"properties":{"Name":"今池中学校","Jusho":"愛知県名古屋市千種区今池3-19-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.93483345,35.16270004]},"properties":{"Name":"千種コミュニティセンター","Jusho":"愛知県名古屋市千種区千種3-2-11","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}

@@ -1,4 +1,4 @@
-﻿var mie={"type":"FeatureCollection","name":"mie","features":[
+﻿var k={"type":"FeatureCollection","name":"mie","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[136.4722835,34.80785744]},"properties":{"Name":"豊が丘小学校","Jusho":"三重県津市豊が丘二丁目34-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.46208,34.79326231]},"properties":{"Name":"高野尾出張所","Jusho":"三重県津市高野尾町5417−1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.4619292,34.79281318]},"properties":{"Name":"高野尾小学校","Jusho":"三重県津市高野尾町5266−1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}

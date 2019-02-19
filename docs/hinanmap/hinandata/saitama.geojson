@@ -1,4 +1,4 @@
-﻿var saitama={"type":"FeatureCollection","name":"saitama","features":[
+﻿var k={"type":"FeatureCollection","name":"saitama","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[139.5728946,35.92241737]},"properties":{"Name":"指扇小学校","Jusho":"埼玉県さいたま市西区大字指扇４２２６","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5714947,35.90372742]},"properties":{"Name":"馬宮東小学校","Jusho":"埼玉県さいたま市西区大字西遊馬１８９-１","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5595105172,35.886118241197]},"properties":{"Name":"馬宮西小学校","Jusho":"埼玉県さいたま市西区大字飯田新田１８９-２","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}

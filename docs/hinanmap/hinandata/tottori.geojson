@@ -1,4 +1,4 @@
-﻿var tottori={"type":"FeatureCollection","name":"tottori","features":[
+﻿var k={"type":"FeatureCollection","name":"tottori","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[134.238291,35.504824]},"properties":{"Name":"鳥取市武道館","Jusho":"鳥取県鳥取市東町1-326","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.23652894578,35.505666192121]},"properties":{"Name":"久松小学校","Jusho":"鳥取県鳥取市東町2-201","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.2348936082,35.509350981799]},"properties":{"Name":"北中学校","Jusho":"鳥取県鳥取市東町3-371-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}

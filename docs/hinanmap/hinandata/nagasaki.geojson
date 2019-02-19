@@ -1,4 +1,4 @@
-﻿var nagasaki={"type":"FeatureCollection","name":"nagasaki","features":[
+﻿var k={"type":"FeatureCollection","name":"nagasaki","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[129.881219,32.754351]},"properties":{"Name":"長崎公園","Jusho":"長崎県長崎市上西山町・立山１，４丁目","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.871571,32.754302]},"properties":{"Name":"西坂公園","Jusho":"長崎県長崎市西坂町","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.875664,32.751412]},"properties":{"Name":"中町公園","Jusho":"長崎県長崎市中町","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}}

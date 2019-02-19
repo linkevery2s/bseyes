@@ -1,4 +1,4 @@
-﻿var akita={"type":"FeatureCollection","name":"akita","features":[
+﻿var k={"type":"FeatureCollection","name":"akita","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.06997552024,39.778103907294]},"properties":{"Name":"雇用促進住宅　緑ヶ丘宿舎（1号棟から2号棟まで〔2階から4階までの廊下と階段および踊り場〕）","Jusho":"秋田県秋田市飯島緑丘町11−１","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.06472624418,39.754059984146]},"properties":{"Name":"雇用促進住宅　土崎宿舎（1号棟から３号棟まで〔3階から5階までの階段と踊り場〕）","Jusho":"秋田県秋田市土崎港西2−12−48","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.06803445582,39.754508060598]},"properties":{"Name":"社会福祉法人はまなす会ケアハウス土崎（3階から8階までのホール、屋外階段と踊り場）","Jusho":"秋田県秋田市土崎港中央3−4−40","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}

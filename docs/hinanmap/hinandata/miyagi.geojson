@@ -1,4 +1,4 @@
-﻿var miyagi={"type":"FeatureCollection","name":"miyagi","features":[
+﻿var k={"type":"FeatureCollection","name":"miyagi","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.8494853,38.30334674]},"properties":{"Name":"桜丘小学校","Jusho":"宮城県仙台市青葉区桜ケ丘8-1-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8389758,38.29661405]},"properties":{"Name":"中山中学校","Jusho":"宮城県仙台市青葉区中山6-16-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.850041,38.29193929]},"properties":{"Name":"中山小学校","Jusho":"宮城県仙台市青葉区中山1-6-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}

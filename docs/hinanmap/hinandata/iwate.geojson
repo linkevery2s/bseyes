@@ -1,4 +1,4 @@
-﻿var iwate={"type":"FeatureCollection","name":"iwate","features":[
+﻿var k={"type":"FeatureCollection","name":"iwate","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[141.1567546,39.70872279]},"properties":{"Name":"下小路中学校体育館 （大規模火災時は屋外運動場）","Jusho":"岩手県盛岡市愛宕町１-１","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.160569,39.71321]},"properties":{"Name":"愛宕山老人福祉センター","Jusho":"岩手県盛岡市愛宕下14","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1482623,39.70944409]},"properties":{"Name":"仁王小学校体育館 （大規模火災時は屋外運動場）","Jusho":"岩手県盛岡市本町通2-18-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}}

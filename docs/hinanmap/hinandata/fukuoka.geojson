@@ -1,4 +1,4 @@
-﻿var fukuoka={"type":"FeatureCollection","name":"fukuoka","features":[
+﻿var k={"type":"FeatureCollection","name":"fukuoka","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[130.9262377,33.89310806]},"properties":{"Name":"西門司小学校","Jusho":"福岡県北九州市門司区東新町一丁目10-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9259739,33.89032724]},"properties":{"Name":"西門司市民センター","Jusho":"福岡県北九州市門司区稲積一丁目3-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9274503,33.89617185]},"properties":{"Name":"市立東部勤労婦人センター","Jusho":"福岡県北九州市門司区下馬寄6-8","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}}

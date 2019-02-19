@@ -1,4 +1,4 @@
-﻿var tiba={"type":"FeatureCollection","name":"tiba","features":[
+﻿var k={"type":"FeatureCollection","name":"tiba","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[140.114303,35.607909]},"properties":{"Name":"新宿小学校","Jusho":"千葉県千葉市中央区新宿2-15-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.128119,35.60932]},"properties":{"Name":"本町小学校","Jusho":"千葉県千葉市中央区本町2-6-23","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.121804,35.597317]},"properties":{"Name":"寒川小学校","Jusho":"千葉県千葉市中央区寒川町1-205","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}}

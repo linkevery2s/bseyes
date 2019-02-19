@@ -1,4 +1,4 @@
-﻿var nara={"type":"FeatureCollection","name":"nara","features":[
+﻿var k={"type":"FeatureCollection","name":"nara","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[135.9113322,34.65939763]},"properties":{"Name":"田原小中学校","Jusho":"奈良県奈良市横田町１９９番地の１","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.9122082,34.65982399]},"properties":{"Name":"（旧）田原中学校","Jusho":"奈良県奈良市横田町２９５番地の１","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.907699,34.657095]},"properties":{"Name":"田原公民館","Jusho":"奈良県奈良市茗荷町１０７８番地の１","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}}

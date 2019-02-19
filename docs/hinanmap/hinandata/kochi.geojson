@@ -1,4 +1,4 @@
-﻿var kochi={"type":"FeatureCollection","name":"kochi","features":[
+﻿var k={"type":"FeatureCollection","name":"kochi","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[134.20531764005,33.393104192873]},"properties":{"Name":"佐喜浜防災コミュニティセンター","Jusho":"高知県室戸市佐喜浜町1334-2","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.2047060964,33.393243036439]},"properties":{"Name":"佐喜浜保育所","Jusho":"高知県室戸市佐喜浜町1336-3","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.20493362128,33.395237346928]},"properties":{"Name":"佐喜浜小学校","Jusho":"高知県室戸市佐喜浜町1700","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}}

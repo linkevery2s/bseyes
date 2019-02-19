@@ -1,4 +1,4 @@
-﻿var ehime={"type":"FeatureCollection","name":"ehime","features":[
+﻿var k={"type":"FeatureCollection","name":"ehime","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[132.7618544,33.84199297]},"properties":{"Name":"城山公園","Jusho":"愛媛県松山市堀之内","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.7736788,33.845786239276]},"properties":{"Name":"東雲公園","Jusho":"愛媛県松山市東雲町7-2","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.781522,33.84437357]},"properties":{"Name":"持田若宮公園","Jusho":"愛媛県松山市持田町3-250-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}

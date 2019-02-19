@@ -1,4 +1,4 @@
-﻿var saga={"type":"FeatureCollection","name":"saga","features":[
+﻿var k={"type":"FeatureCollection","name":"saga","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[130.29764,33.255722]},"properties":{"Name":"勧興公民館","Jusho":"佐賀県佐賀市成章町3-18","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.296936,33.256635]},"properties":{"Name":"勧興小学校","Jusho":"佐賀県佐賀市成章町3-16","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.294782,33.256517]},"properties":{"Name":"成章中学校","Jusho":"佐賀県佐賀市成章町7-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}

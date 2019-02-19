@@ -1,4 +1,4 @@
-﻿var tokushima={"type":"FeatureCollection","name":"tokushima","features":[
+﻿var k={"type":"FeatureCollection","name":"tokushima","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[134.5571101,34.0722786]},"properties":{"Name":"株式会社時事通信社 徳島支局","Jusho":"徳島県徳島市徳島町2丁目13番地","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.557471,34.07444309]},"properties":{"Name":"WISDOM徳島町","Jusho":"徳島県徳島市徳島町3丁目5番地","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.5508266,34.07658603]},"properties":{"Name":"内町小学校 校舎","Jusho":"徳島県徳島市徳島町城内1番地の15","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}

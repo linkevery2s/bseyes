@@ -1,4 +1,4 @@
-﻿var toyama={"type":"FeatureCollection","name":"toyama","features":[
+﻿var k={"type":"FeatureCollection","name":"toyama","features":[
 {"type":"Feature","geometry":{"type":"Point","coordinates":[137.1949582,36.75685641]},"properties":{"Name":"四方地区センター","Jusho":"富山県富山市四方142-1","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.3102614,36.75039254]},"properties":{"Name":"水橋中部地区センター","Jusho":"富山県富山市水橋舘町312-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.1954115,36.75488198]},"properties":{"Name":"四方小学校","Jusho":"富山県富山市四方405","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
